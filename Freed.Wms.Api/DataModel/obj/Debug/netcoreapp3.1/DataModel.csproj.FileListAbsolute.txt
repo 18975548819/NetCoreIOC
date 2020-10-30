@@ -1,0 +1,9 @@
+D:\项目代码\WMS数据展示\Freed.Wms.Api\DataModel\bin\Debug\netcoreapp3.1\DataModel.deps.json
+D:\项目代码\WMS数据展示\Freed.Wms.Api\DataModel\bin\Debug\netcoreapp3.1\DataModel.dll
+D:\项目代码\WMS数据展示\Freed.Wms.Api\DataModel\obj\Debug\netcoreapp3.1\DataModel.csprojAssemblyReference.cache
+D:\项目代码\WMS数据展示\Freed.Wms.Api\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyInfoInputs.cache
+D:\项目代码\WMS数据展示\Freed.Wms.Api\DataModel\obj\Debug\netcoreapp3.1\DataModel.AssemblyInfo.cs
+D:\项目代码\WMS数据展示\Freed.Wms.Api\DataModel\bin\Debug\netcoreapp3.1\DataModel.pdb
+D:\项目代码\WMS数据展示\Freed.Wms.Api\DataModel\obj\Debug\netcoreapp3.1\DataModel.csproj.CoreCompileInputs.cache
+D:\项目代码\WMS数据展示\Freed.Wms.Api\DataModel\obj\Debug\netcoreapp3.1\DataModel.dll
+D:\项目代码\WMS数据展示\Freed.Wms.Api\DataModel\obj\Debug\netcoreapp3.1\DataModel.pdb

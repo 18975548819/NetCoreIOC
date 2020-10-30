@@ -1,0 +1,8 @@
+D:\项目代码\NB\源码\Freed.Pro\Freed.Program\Freed.Common\bin\Release\netcoreapp3.0\Freed.Common.deps.json
+D:\项目代码\NB\源码\Freed.Pro\Freed.Program\Freed.Common\bin\Release\netcoreapp3.0\Freed.Common.dll
+D:\项目代码\NB\源码\Freed.Pro\Freed.Program\Freed.Common\bin\Release\netcoreapp3.0\Freed.Common.pdb
+D:\项目代码\NB\源码\Freed.Pro\Freed.Program\Freed.Common\obj\Release\netcoreapp3.0\Freed.Common.csprojAssemblyReference.cache
+D:\项目代码\NB\源码\Freed.Pro\Freed.Program\Freed.Common\obj\Release\netcoreapp3.0\Freed.Common.AssemblyInfoInputs.cache
+D:\项目代码\NB\源码\Freed.Pro\Freed.Program\Freed.Common\obj\Release\netcoreapp3.0\Freed.Common.AssemblyInfo.cs
+D:\项目代码\NB\源码\Freed.Pro\Freed.Program\Freed.Common\obj\Release\netcoreapp3.0\Freed.Common.dll
+D:\项目代码\NB\源码\Freed.Pro\Freed.Program\Freed.Common\obj\Release\netcoreapp3.0\Freed.Common.pdb

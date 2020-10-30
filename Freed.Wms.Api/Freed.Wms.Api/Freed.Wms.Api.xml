@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Freed.Wms.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Freed.Wms.Api.Controllers.Base.AccountController.GetWmsPdaConfig">
+            <summary>
+            获取配置信息集合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.Base.AccountController.Login(Freed.Wms.Api.Models.LoginViewModel)">
+            <summary>
+            登录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Freed.Wms.Api.Controllers.Base.BaseController">
+            <summary>
+            基类
+            </summary>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.Base.BaseController.GetClientIp">
+            <summary>
+            获取远程客户端的IP地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Freed.Wms.Api.Controllers.Base.BaseController.CurrentUser">
+            <summary>
+            当前登录用户
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Controllers.Base.BaseController.CurrentConnFactory">
+            <summary>
+            根据token拼接登录厂区的数据库连接串
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Controllers.Base.BaseController.CurrentFeasId">
+            <summary>
+            根据Token获取FeasId
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Controllers.Base.BaseController.CurrentConfig">
+            <summary>
+            根据Token获取当前用户的配置信息
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Controllers.Base.BaseController.CurrentUnitFid">
+            <summary>
+            根据Token获取UnitFid
+            </summary>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.Base.BaseController.MatchAuthCode(System.String)">
+            <summary>
+            检测图形验证码是否匹配
+            </summary>
+            <param name="valcode"></param>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.LoginViewModel.LoginName">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.LoginViewModel.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.LoginViewModel.IsAdmin">
+            <summary>
+            是否管理员
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.LoginViewModel.GroupType">
+            <summary>
+            登录厂区
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.LoginViewModel.WmsRepertory">
+            <summary>
+            登录仓库
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.LoginViewModel.IsSapPosting">
+            <summary>
+            是否SAP过账
+            </summary>
+        </member>
+    </members>
+</doc>
