@@ -85,5 +85,34 @@ namespace DataService
             }
             return result;
         }
+
+        /// <summary>
+        /// 获取仓位信息
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        public async Task<DataResult<List<IWmsRepertory>>> GetWmsRepertoryAllAsync(QueryData<WmsRepertoryQuery> query)
+        {
+            var result = new DataResult<List<IWmsRepertory>>();
+
+            string condition = @" where 1=1 ";
+            string sql = @"select GUID, RepertoryId, RepertoryName, Company, Address, Factory, LastModified from ls_wms_Repertory "
+                + condition;
+            using (IDbConnection dbConn = MssqlHelper.OpenMsSqlConnection(query.SqlConn))
+            {
+                try
+                {
+                    var modelList = await MssqlHelper.QueryPageAsync<WmsRepertoryModel>(dbConn, "RepertoryId asc", sql, query.PageModel);
+                    result.Data = modelList.ToList<IWmsRepertory>();
+                    result.PageInfo = query.PageModel;
+                }
+                catch (Exception ex)
+                {
+                    result.SetErr(ex, -500);
+                    result.Data = null;
+                }
+            }
+            return result;
+        }
     }
 }

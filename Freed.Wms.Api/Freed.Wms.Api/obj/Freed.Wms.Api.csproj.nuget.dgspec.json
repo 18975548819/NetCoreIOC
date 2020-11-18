@@ -319,6 +319,10 @@
               "target": "Package",
               "version": "[8.0.19, )"
             },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.1, )"

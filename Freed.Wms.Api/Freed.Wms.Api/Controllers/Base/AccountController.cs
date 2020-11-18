@@ -15,7 +15,7 @@ using Newtonsoft.Json;
 
 namespace Freed.Wms.Api.Controllers.Base
 {
-    [Route("api/[controller]")]
+    [Route("v1/api/[controller]")]
     [ApiController]
     public class AccountController : BaseController
     {
@@ -32,10 +32,10 @@ namespace Freed.Wms.Api.Controllers.Base
         /// 获取配置信息集合
         /// </summary>
         /// <returns></returns>
-        [Authorize,HttpGet, Route("get_wms_pda_config")]
+        [HttpGet, Route("get_wms_pda_config")]
         public async Task<IActionResult> GetWmsPdaConfig()
         {
-            var condition = new WmsPdaConfigQuery();
+           var condition = new WmsPdaConfigQuery();
             var query = new QueryData<WmsPdaConfigQuery>();
             query.Criteria = condition;
 
@@ -81,6 +81,29 @@ namespace Freed.Wms.Api.Controllers.Base
                 var token = JsonConvert.DeserializeObject<TokenModel>(tokenJson);
                 result.SetInfo(token.auth_token, "成功", 200);
             }
+
+            return Ok(result);
+        }
+
+
+        /// <summary>
+        /// 获取仓位信息集合
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [HttpPost, Route("get_wms_pda_repertoty")]
+        public async Task<IActionResult> GetWmsPdaRepertoty(RepertotyViewModel model)
+        {
+            var condition = new WmsRepertoryQuery();
+            condition.GroupType = model.GroupType;
+            var query = new QueryData<WmsRepertoryQuery>();
+            query.Criteria = condition;
+            query.PageModel.PageIndex = model.PageIndex;
+            query.PageModel.PageSize = model.PageSize;
+
+            query.SqlConn = CurrentConnFactory;
+
+            var result = await _manager.QueryWmsRepertorysAsync(query);
 
             return Ok(result);
         }

@@ -157,7 +157,7 @@ namespace Freed.Wms.Api
                 builder.AllowAnyMethod();
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseSwagger();
 

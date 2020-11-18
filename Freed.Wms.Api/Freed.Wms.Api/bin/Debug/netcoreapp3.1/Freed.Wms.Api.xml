@@ -17,6 +17,13 @@
             <param name="model"></param>
             <returns></returns>
         </member>
+        <member name="M:Freed.Wms.Api.Controllers.Base.AccountController.GetWmsPdaRepertoty(Freed.Wms.Api.Models.RepertotyViewModel)">
+            <summary>
+            获取仓位信息集合
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
         <member name="T:Freed.Wms.Api.Controllers.Base.BaseController">
             <summary>
             基类
@@ -59,6 +66,96 @@
             </summary>
             <param name="valcode"></param>
         </member>
+        <member name="T:Freed.Wms.Api.Controllers.InStorageGoodsController">
+            <summary>
+            入库物料
+            </summary>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.InStorageGoodsController.GetInStorageGoodsInfoDvScrollBoard(Freed.Wms.Api.Models.GetDvScrollBoardViewModel)">
+            <summary>
+            获取入库物料信息（轮播表）
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Freed.Wms.Api.Controllers.OutStorageGoodsController">
+            <summary>
+            出库物料
+            </summary>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.OutStorageGoodsController.GetOutStorageGoodsInfoDvScrollBoard(Freed.Wms.Api.Models.GetDvScrollBoardViewModel)">
+            <summary>
+            获取出库物料信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.OutStorageGoodsController.GetOutStorageGoodsInfoDvActiveRingChart(Freed.Wms.Api.Models.GetDvScrollBoardViewModel)">
+            <summary>
+            当天（动态环图）
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Freed.Wms.Api.Controllers.ReportQueryController">
+            <summary>
+            报表查询
+            </summary>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.ReportQueryController.GetWmsEntryAndExitGoodsList(Freed.Wms.Api.Models.ReportQueryViewModel)">
+            <summary>
+            获取出入库明细
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Freed.Wms.Api.Controllers.StorageMaterialController">
+            <summary>
+            单据
+            </summary>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.StorageMaterialController.GetStorageMaterialInfo(Freed.Wms.Api.Models.GetDvScrollBoardViewModel)">
+            <summary>
+            获取出入库单据信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Freed.Wms.Api.Controllers.WmsBasicInfoController">
+            <summary>
+            基础信息
+            </summary>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.WmsBasicInfoController.GetWmsStorageInfo">
+            <summary>
+            获取储位信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.WmsBasicInfoController.GetEchartsPieData">
+            <summary>
+            仓库物料数量获取
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.WmsBasicInfoController.GetEchartsPieDataKC">
+            <summary>
+            库存统计
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.WmsBasicInfoController.GetRepertoryIdAndStorageTypeList">
+            <summary>
+            获取仓位集合和出入库类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.WmsBasicInfoController.GetServerDayInAndOutWarehouseTrends">
+            <summary>
+            获取近七天仓库库存趋势
+            </summary>
+            <returns></returns>
+        </member>
         <member name="P:Freed.Wms.Api.Models.LoginViewModel.LoginName">
             <summary>
             登录名
@@ -87,6 +184,46 @@
         <member name="P:Freed.Wms.Api.Models.LoginViewModel.IsSapPosting">
             <summary>
             是否SAP过账
+            </summary>
+        </member>
+        <member name="T:Freed.Wms.Api.Models.ReportQueryViewModel">
+            <summary>
+            报表查询前端参数
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ReportQueryViewModel.DeliveryNo">
+             <summary>
+            单据号
+             </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ReportQueryViewModel.MaterieId">
+            <summary>
+            物料号
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ReportQueryViewModel.StartScanTime">
+            <summary>
+            开始扫描时间
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ReportQueryViewModel.EndScanTime">
+            <summary>
+            结束扫描时间
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ReportQueryViewModel.RepertoryId">
+            <summary>
+            仓位
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ReportQueryViewModel.StorageType">
+            <summary>
+            出入库类型
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ReportQueryViewModel.ScanTime">
+            <summary>
+            扫描时间
             </summary>
         </member>
     </members>

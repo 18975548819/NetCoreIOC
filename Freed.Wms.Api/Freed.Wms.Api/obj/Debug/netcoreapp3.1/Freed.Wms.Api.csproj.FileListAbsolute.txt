@@ -77,3 +77,8 @@ D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp
 D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\DataModel.dll
 D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\DataModel.pdb
+D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\NPOI.OOXML.dll
+D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXml4Net.dll
+D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\NPOI.OpenXmlFormats.dll
+D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\NPOI.dll
+D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\ICSharpCode.SharpZipLib.dll

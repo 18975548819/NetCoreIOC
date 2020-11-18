@@ -29,6 +29,10 @@ namespace Freed.Common.Data
         /// 数据库连接字符串
         /// </summary>
         public string SqlConn { get; set; }
+        /// <summary>
+        /// 登录仓位
+        /// </summary>
+        public string RepertoryId { get; set; }
 
     }
 }

@@ -156,5 +156,43 @@ namespace BusinessManage
             result.ExpandSeconds = (DateTime.Now - dt).TotalSeconds;
             return result;
         }
+
+        /// <summary>
+        /// 获取仓位信息
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        public async  Task<ListResult<IWmsRepertory>> QueryWmsRepertorysAsync(QueryData<WmsRepertoryQuery> query)
+        {
+            var lr = new ListResult<IWmsRepertory>();
+            var dt = DateTime.Now;
+
+            //根据厂区获取数据库连接串
+            var connQuery = new WmsPdaConfigQuery();
+            connQuery.GroupType = query.Criteria.GroupType;
+            var conn = await QueryWmsPdaConnAsync(connQuery);
+            query.SqlConn = conn.Data;
+
+            var res = await _service.GetWmsRepertoryAllAsync(query);
+            if (res.HasErr)
+            {
+                lr.SetInfo("查询异常", res.ErrCode);
+            }
+            else
+            {
+                var lst = new List<IWmsRepertory>();
+                foreach (var item in res.Data)
+                {
+                    IWmsRepertory info = new WmsRepertoryModel();
+                    info = item;
+                    lst.Add(info);
+                }
+                lr.PageModel = res.PageInfo;
+                lr.SetData(lst);
+            }
+
+            lr.ExpandSeconds = (DateTime.Now - dt).TotalSeconds;
+            return lr;
+        }
     }
 }

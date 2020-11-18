@@ -42,5 +42,12 @@ namespace IBusinessManage
         /// <param name="query"></param>
         /// <returns></returns>
         Task<ErrData<IWmsPdaUser>> LoginAsync(QueryData<WmsPdaUserQuery> query);
+
+        /// <summary>
+        /// 获取仓库信息
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        Task<ListResult<IWmsRepertory>> QueryWmsRepertorysAsync(QueryData<WmsRepertoryQuery> query);
     }
 }

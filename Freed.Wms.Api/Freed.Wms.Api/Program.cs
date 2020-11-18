@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore;
@@ -14,6 +15,12 @@ namespace Freed.Wms.Api
     {
         public static void Main(string[] args)
         {
+            //支持命令行中传参数
+            //new ConfigurationBuilder()
+            //    .SetBasePath(Directory.GetCurrentDirectory())
+            //    .AddCommandLine(args)
+            //    .Build();
+
             //CreateHostBuilder(args).Build().Run();
             CreateWebHostBuilder(args).Build().Run();
         }
@@ -28,6 +35,6 @@ namespace Freed.Wms.Api
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
                 WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+                .UseStartup<Startup>().UseUrls("http://*:5088;https://*:5081");
     }
 }
