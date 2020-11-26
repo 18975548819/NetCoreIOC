@@ -9,6 +9,7 @@ namespace DataEntities.InterfaceEntities.WMS
     /// </summary>
     public interface IWmsStock
     {
+        int Id { get; set; }
         string MaterieId { get; set; }
         string RepertoryId { get; set; }
         /// <summary>
@@ -21,5 +22,6 @@ namespace DataEntities.InterfaceEntities.WMS
         string InStorageNo { get; set; }
         string StorageName { get; set; }
         decimal Qty { get; set; }
+        bool? hasChildren { get; set; }
     }
 }

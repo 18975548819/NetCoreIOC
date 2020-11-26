@@ -58,6 +58,13 @@ namespace IDataService.WNS
         /// <param name="query"></param>
         /// <returns></returns>
         Task<DataResult<List<IWmsStock>>> GetIWmsStockListAsync(QueryData<GetWmsInStorageGoodsQuery> query);
+
+        /// <summary>
+        ///物料库存详情
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        Task<DataResult<List<IWmsStock>>> GetIWmsStockDetailListAsync(QueryData<GetWmsInStorageGoodsQuery> query);
         #endregion
     }
 }

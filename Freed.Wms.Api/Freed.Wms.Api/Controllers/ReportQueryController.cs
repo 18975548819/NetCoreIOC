@@ -43,7 +43,7 @@ namespace Freed.Wms.Api.Controllers
             infoQuery.MaterieId = model.MaterieId;
             infoQuery.RepertoryId = model.RepertoryId;
             infoQuery.StorageType = model.StorageType;
-            if (model.ScanTime.Count > 0)
+            if (model.ScanTime != null && model.ScanTime.Count > 0)
             {
                 infoQuery.StartScanTime = model.ScanTime[0];
                 infoQuery.EndScanTime = model.ScanTime[1];
@@ -84,7 +84,7 @@ namespace Freed.Wms.Api.Controllers
             infoQuery.MaterieId = model.MaterieId;
             infoQuery.RepertoryId = model.RepertoryId;
             infoQuery.StorageType = model.StorageType;
-            if (model.ScanTime.Count > 0)
+            if (model.ScanTime != null && model.ScanTime.Count > 0)
             {
                 infoQuery.StartScanTime = model.ScanTime[0];
                 infoQuery.EndScanTime = model.ScanTime[1];
@@ -107,6 +107,37 @@ namespace Freed.Wms.Api.Controllers
             }
 
             var result = await _manager.GetIWmsStockMsAsync(query);
+
+            return Ok(result);
+        }
+
+        /// <summary>
+        /// 物料库存详情查询
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [Authorize, HttpPost, Route("get_WmsStockDetail")]
+        public async Task<IActionResult> GetIWmsStockDetailList(ReportQueryViewModel model)
+        {
+            GetWmsInStorageGoodsQuery infoQuery = new GetWmsInStorageGoodsQuery();
+            infoQuery.DeliveryNo = model.DeliveryNo;
+            infoQuery.MaterieId = model.MaterieId;
+            infoQuery.RepertoryId = model.RepertoryId;
+            infoQuery.StorageType = model.StorageType;
+            if (model.ScanTime != null && model.ScanTime.Count > 0)
+            {
+                infoQuery.StartScanTime = model.ScanTime[0];
+                infoQuery.EndScanTime = model.ScanTime[1];
+            }
+
+            var query = new QueryData<GetWmsInStorageGoodsQuery>();
+            query.Criteria = infoQuery;
+            query.SqlConn = CurrentConnFactory;
+            query.RepertoryId = CurrentUser.WmsRepertory;
+            query.PageModel.PageIndex = 1;
+            query.PageModel.PageSize = int.MaxValue;
+
+            var result = await _manager.GetIWmsStockDetailMsAsync(query);
 
             return Ok(result);
         }

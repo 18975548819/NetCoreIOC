@@ -60,6 +60,13 @@ namespace IBusinessManage.WMS
         /// <param name="query"></param>
         /// <returns></returns>
         Task<ListResult<IWmsStock>> GetIWmsStockMsAsync(QueryData<GetWmsInStorageGoodsQuery> query);
+
+        /// <summary>
+        /// 物料库存详情查询
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        Task<ListResult<IWmsStock>> GetIWmsStockDetailMsAsync(QueryData<GetWmsInStorageGoodsQuery> query);
         #endregion
     }
 }

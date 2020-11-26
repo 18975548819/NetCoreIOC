@@ -10,6 +10,7 @@ namespace DataEntities.InterfaceModel.WMS
     /// </summary>
     public class WmsStockModel: IWmsStock
     {
+        public int Id { get; set; }
         public string MaterieId { get; set; }
         public string RepertoryId { get; set; }
         /// <summary>
@@ -22,5 +23,6 @@ namespace DataEntities.InterfaceModel.WMS
         public string InStorageNo { get; set; }
         public string StorageName { get; set; }
         public decimal Qty { get; set; }
+        public bool? hasChildren { get; set; }
     }
 }

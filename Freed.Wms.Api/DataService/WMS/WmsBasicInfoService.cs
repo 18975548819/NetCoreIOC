@@ -219,6 +219,68 @@ namespace DataService.WMS
             return result;
         }
 
+        /// <summary>
+        /// 物料库存详细查询
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        public async Task<DataResult<List<IWmsStock>>> GetIWmsStockDetailListAsync(QueryData<GetWmsInStorageGoodsQuery> query)
+        {
+            var result = new DataResult<List<IWmsStock>>();
+
+            string condition = @" WHERE 1=1 and QTY > 0 ";
+            condition += string.IsNullOrEmpty(query.Criteria.MaterieId) ? string.Empty : string.Format(" and MaterieId like '%{0}%'  ", query.Criteria.MaterieId);
+            condition += string.IsNullOrEmpty(query.Criteria.RepertoryId) ? string.Empty : string.Format(" and InRepertoryId like '%{0}%' ", query.Criteria.RepertoryId);
+            //成品库存视图
+            string sql = string.Format(@"select MaterieId,InRepertoryId as RepertoryId,LotNumber,StorageTime,ValidTime,InStorageNo,Qty,Fnumber from [dbo].[V_Wms_Pda_FinishedProductList] {0}", condition);
+
+            //原材料试图库存
+            string sql2 = string.Format(@"select [MaterieId]
+                                              ,[LotNumber]
+                                              ,[InStorageNo]
+                                              ,[Qty]
+                                              ,[StorageTime]
+                                              ,[InRepertoryId]
+                                              ,[OutRepertoryId]
+                                              ,[InStorageName]
+                                              ,[OnStorageName] from [dbo].[V_Wms_Pda_StorageList] {0}", condition);
+
+
+
+            string sqlsto = @"SELECT Top 1 StorageName FROM [dbo].[ls_wms_Storage] WHERE StorageId=@StorageNo";
+
+            using (IDbConnection dbConn = MssqlHelper.OpenMsSqlConnection(query.SqlConn))
+            {
+                try
+                {
+                    var modelList = await MssqlHelper.QueryPageAsync<WmsStockModel>(dbConn, "MaterieId asc", sql, query.PageModel);
+                    string fnumberV = modelList.Select(s => s.Fnumber).FirstOrDefault();
+                    if (string.IsNullOrEmpty(fnumberV))
+                    {
+                        modelList = await MssqlHelper.QueryPageAsync<WmsStockModel>(dbConn, "MaterieId asc", sql2, query.PageModel);
+                    }
+                    result.Data = modelList.ToList<IWmsStock>();
+                    if (result.Data.Count > 0)
+                    {
+                        foreach (var item in result.Data)
+                        {
+                            item.StorageName = await MssqlHelper.QueryFirstAsync<string>(dbConn, sqlsto, new { StorageNo = item.InStorageNo });
+                        }
+                    }
+                    result.PageInfo.PageIndex = query.PageModel.PageIndex;
+                    result.PageInfo.PageSize = query.PageModel.PageSize;
+                    int totalCount = await MssqlHelper.QueryCountAsync(dbConn, sql);
+                    result.PageInfo.TotalCount = totalCount;
+                }
+                catch (Exception ex)
+                {
+                    result.SetErr(ex, -500);
+                    result.Data = null;
+                }
+            }
+            return result;
+        }
+
 
         #endregion
 

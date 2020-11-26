@@ -109,6 +109,20 @@
             <param name="model"></param>
             <returns></returns>
         </member>
+        <member name="M:Freed.Wms.Api.Controllers.ReportQueryController.GetIWmsStockList(Freed.Wms.Api.Models.ReportQueryViewModel)">
+            <summary>
+            库存报表查询
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.ReportQueryController.GetIWmsStockDetailList(Freed.Wms.Api.Models.ReportQueryViewModel)">
+            <summary>
+            物料库存详情查询
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
         <member name="T:Freed.Wms.Api.Controllers.StorageMaterialController">
             <summary>
             单据

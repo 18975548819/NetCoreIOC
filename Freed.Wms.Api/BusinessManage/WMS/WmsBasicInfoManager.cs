@@ -355,8 +355,48 @@ namespace BusinessManage.WMS
             {
                 if (res.Data != null && res.Data.Count > 0)
                 {
+                    int js = 0;
                     foreach (var item in res.Data)
                     {
+                        js += 1;
+                        item.Id = js;
+                        item.hasChildren = true;
+                        result.Results.Add(item);
+                    }
+                }
+            }
+            result.PageModel = res.PageInfo;
+            result.SetInfo("成功", 200);
+            result.ExpandSeconds = (DateTime.Now - dt).TotalSeconds;
+            return result;
+        }
+
+        /// <summary>
+        /// 物料库存详情查询
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        public async Task<ListResult<IWmsStock>> GetIWmsStockDetailMsAsync(QueryData<GetWmsInStorageGoodsQuery> query)
+        {
+            var result = new ListResult<IWmsStock>();
+            var dt = DateTime.Now;
+
+            var res = await _service.GetIWmsStockDetailListAsync(query);
+            if (res.HasErr)
+            {
+                result.SetInfo(res.ErrMsg, res.ErrCode);
+                return result;
+            }
+            else
+            {
+                if (res.Data != null && res.Data.Count > 0)
+                {
+                    int js = 0;
+                    foreach (var item in res.Data)
+                    {
+                        js += 1;
+                        item.Id = js;
+                        item.hasChildren = false;
                         result.Results.Add(item);
                     }
                 }
