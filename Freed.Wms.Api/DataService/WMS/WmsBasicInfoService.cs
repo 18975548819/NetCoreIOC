@@ -28,9 +28,10 @@ namespace DataService.WMS
         {
             var result = new DataResult<List<SeriesData>>();
 
-            //string condition = @" where 1=1 ";
+            string condition = @" where 1=1 ";
+            condition += string.IsNullOrEmpty(query.Criteria.RepertoryId) ? string.Empty : string.Format(" and InRepertoryId = '{0}' ", query.Criteria.RepertoryId);
 
-            string sql = string.Format(@"select  InRepertoryId as name,COUNT(*) as value from V_Wms_Pda_StorageList group by  InRepertoryId");
+            string sql = string.Format(@"select  InRepertoryId as name,COUNT(*) as value from V_Wms_Pda_StorageList {0} group by  InRepertoryId", condition);
             using (IDbConnection dbConn = MssqlHelper.OpenMsSqlConnection(query.SqlConn))
             {
                 try
@@ -57,13 +58,14 @@ namespace DataService.WMS
             var result = new DataResult<List<SeriesData>>();
 
             string condition = @" where 1=1 ";
-            condition += string.IsNullOrEmpty(query.RepertoryId) ? string.Empty : string.Format(" and InRepertoryId = '{0}'", query.RepertoryId);
-            string sql = string.Format(@"select top 100 MaterieId as name,sum(Qty) as value from [dbo].[V_Wms_Pda_StorageList] {0} group by MaterieId order by value desc", condition);
+            condition += string.IsNullOrEmpty(query.Criteria.MaterieId) ? string.Empty : string.Format(" and MaterieId = '{0}'", query.Criteria.MaterieId);
+            condition += string.IsNullOrEmpty(query.Criteria.RepertoryId) ? string.Empty : string.Format(" and InRepertoryId = '{0}'", query.Criteria.RepertoryId);
+            string sql = string.Format(@"select MaterieId as name,sum(Qty) as value from [dbo].[V_Wms_Pda_StorageList] {0} group by MaterieId ", condition);
             using (IDbConnection dbConn = MssqlHelper.OpenMsSqlConnection(query.SqlConn))
             {
                 try
                 {
-                    var modelList = await MssqlHelper.QueryListAsync<SeriesData>(dbConn, sql);
+                    var modelList = await MssqlHelper.QueryPageAsync<SeriesData>(dbConn, "value desc", sql, query.PageModel);
                     result.Data = modelList.ToList<SeriesData>();
                 }
                 catch (Exception ex)

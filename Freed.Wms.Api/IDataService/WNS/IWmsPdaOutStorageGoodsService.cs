@@ -21,8 +21,12 @@ namespace IDataService.WNS
         /// <returns></returns>
         Task<DataResult<List<IWmsOutStorageGoods>>> GetWmsOutStorageGoodsListAsync(QueryData<GetWmsInStorageGoodsQuery> query);
 
+        /// <summary>
+        /// 获取所有出库物料信息
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
         Task<DataResult<List<IWmsOutStorageGoods>>> GetWmsOutStorageGoodsAllListAsync(QueryData<GetWmsInStorageGoodsQuery> query);
-
 
         /// <summary>
         /// 获取各仓库物料出库信息

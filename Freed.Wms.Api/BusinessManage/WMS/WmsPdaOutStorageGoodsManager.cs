@@ -1,4 +1,5 @@
-﻿using DataEntities.QueryModel;
+﻿using DataEntities.InterfaceEntities.WMS;
+using DataEntities.QueryModel;
 using DataModel.WMS;
 using Freed.Common.Data;
 using IBusinessManage.WMS;
@@ -71,7 +72,11 @@ namespace BusinessManage.WMS
             result.ExpandSeconds = (DateTime.Now - dt).TotalSeconds;
             return result;
         }
-
+        /// <summary>
+        /// 获取近七天物料出库信息
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
         public async Task<ErrData<EchartsLineDataModels>> GetOutStorageGoodInfoByServerDayMaAsyn(QueryData<GetWmsInStorageGoodsQuery> query)
         {
             var result = new ErrData<EchartsLineDataModels>();
@@ -148,6 +153,46 @@ namespace BusinessManage.WMS
                 result.SetInfo(dvActiveRingChart, "成功", 200);
             }
 
+            result.ExpandSeconds = (DateTime.Now - dt).TotalSeconds;
+            return result;
+        }
+
+        /// <summary>
+        /// 获取物料出库信息
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        public async Task<ListResult<IWmsOutStorageGoods>> GetOutStorageGoodListMaAsyn(QueryData<GetWmsInStorageGoodsQuery> query)
+        {
+            var result = new ListResult<IWmsOutStorageGoods>();
+            var dt = DateTime.Now;
+            try
+            {
+                var res = await _service.GetWmsOutStorageGoodsListAsync(query);
+                if (res.HasErr)
+                {
+                    result.ExpandSeconds = (DateTime.Now - dt).TotalSeconds;
+                    result.SetInfo(res.ErrMsg, res.ErrCode);
+                    return result;
+                }
+                else
+                {
+                    if (res.Data.Count > 0)
+                    {
+                        foreach (var item in res.Data)
+                        {
+                            result.Results.Add(item);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                result.ExpandSeconds = (DateTime.Now - dt).TotalSeconds;
+                result.SetInfo(ex.ToString(), -500);
+                return result;
+            }
+            result.SetInfo("成功", 200);
             result.ExpandSeconds = (DateTime.Now - dt).TotalSeconds;
             return result;
         }

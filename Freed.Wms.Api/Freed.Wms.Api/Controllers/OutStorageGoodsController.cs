@@ -77,5 +77,29 @@ namespace Freed.Wms.Api.Controllers
 
             return Ok(result);
         }
+
+        /// <summary>
+        /// 获取物料出库信息
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [Authorize, HttpPost, Route("get_OutStorageGoodsInfoList")]
+        public async Task<IActionResult> GetOutStorageGoodsInfoListd(BaseInfoViewModel model)
+        {
+            GetWmsInStorageGoodsQuery getWmsInStorageGoods = new GetWmsInStorageGoodsQuery();
+            getWmsInStorageGoods.MaterieId = model.MaterieId;
+            getWmsInStorageGoods.RepertoryId = model.RepertoryId;
+
+            var query = new QueryData<GetWmsInStorageGoodsQuery>();
+            query.Criteria = getWmsInStorageGoods;
+            query.SqlConn = CurrentConnFactory;
+            query.RepertoryId = CurrentUser.WmsRepertory;
+            query.PageModel.PageIndex = model.PageIndex;
+            query.PageModel.PageSize = model.PageSize;
+
+            var result = await _manager.GetOutStorageGoodListMaAsyn(query);
+
+            return Ok(result);
+        }
     }
 }

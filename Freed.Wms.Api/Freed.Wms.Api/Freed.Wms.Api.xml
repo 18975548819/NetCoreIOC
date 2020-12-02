@@ -78,6 +78,27 @@
             <param name="model"></param>
             <returns></returns>
         </member>
+        <member name="M:Freed.Wms.Api.Controllers.InStorageGoodsController.GetInStorageGoodsList(Freed.Wms.Api.Models.BaseInfoViewModel)">
+            <summary>
+            获取物料入库信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.InStorageGoodsController.GetInStorageGoodsInfoDvActiveRingChart(Freed.Wms.Api.Models.GetDvScrollBoardViewModel)">
+            <summary>
+            物料入库类型统计
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.InStorageGoodsController.GetInStorageGoodsInfoServerData(Freed.Wms.Api.Models.GetDvScrollBoardViewModel)">
+            <summary>
+            近七天入库物料信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
         <member name="T:Freed.Wms.Api.Controllers.OutStorageGoodsController">
             <summary>
             出库物料
@@ -93,6 +114,13 @@
         <member name="M:Freed.Wms.Api.Controllers.OutStorageGoodsController.GetOutStorageGoodsInfoDvActiveRingChart(Freed.Wms.Api.Models.GetDvScrollBoardViewModel)">
             <summary>
             当天（动态环图）
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.OutStorageGoodsController.GetOutStorageGoodsInfoListd(Freed.Wms.Api.Models.BaseInfoViewModel)">
+            <summary>
+            获取物料出库信息
             </summary>
             <param name="model"></param>
             <returns></returns>
@@ -146,13 +174,13 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Freed.Wms.Api.Controllers.WmsBasicInfoController.GetEchartsPieData">
+        <member name="M:Freed.Wms.Api.Controllers.WmsBasicInfoController.GetEchartsPieData(Freed.Wms.Api.Models.BaseInfoViewModel)">
             <summary>
             仓库物料数量获取
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Freed.Wms.Api.Controllers.WmsBasicInfoController.GetEchartsPieDataKC">
+        <member name="M:Freed.Wms.Api.Controllers.WmsBasicInfoController.GetEchartsPieDataKC(Freed.Wms.Api.Models.BaseInfoViewModel)">
             <summary>
             库存统计
             </summary>
@@ -169,6 +197,21 @@
             获取近七天仓库库存趋势
             </summary>
             <returns></returns>
+        </member>
+        <member name="T:Freed.Wms.Api.Models.BaseInfoViewModel">
+            <summary>
+            基本信息查询前端参数接收
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.BaseInfoViewModel.MaterieId">
+            <summary>
+            物料号
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.BaseInfoViewModel.RepertoryId">
+            <summary>
+            仓位
+            </summary>
         </member>
         <member name="P:Freed.Wms.Api.Models.LoginViewModel.LoginName">
             <summary>

@@ -135,7 +135,14 @@ namespace DataService.WMS
             condition += string.IsNullOrEmpty(query.Criteria.StartScanTime) ? string.Empty : string.Format(" and ScanTime >= '{0}' and ScanTime <= '{1}'", query.Criteria.StartScanTime, query.Criteria.EndScanTime);
             condition += string.IsNullOrEmpty(query.Criteria.DeliveryNo) ? string.Empty : string.Format(" and DeliveryNo = '{0}'", query.Criteria.DeliveryNo);
             condition += string.IsNullOrEmpty(query.Criteria.MaterieId) ? string.Empty : string.Format(" and MaterieId = '{0}'", query.Criteria.MaterieId);
-            condition += string.IsNullOrEmpty(query.RepertoryId) ? string.Empty : string.Format(" and RepertoryId = '{0}'", query.RepertoryId);
+            if (string.IsNullOrEmpty(query.Criteria.RepertoryId))
+            {
+                condition += string.IsNullOrEmpty(query.RepertoryId) ? string.Empty : string.Format(" and RepertoryId = '{0}'", query.RepertoryId);
+            }
+            else
+            {
+                condition += string.IsNullOrEmpty(query.Criteria.RepertoryId) ? string.Empty : string.Format(" and RepertoryId = '{0}'", query.Criteria.RepertoryId);
+            }
             string sql = string.Format(@"SELECT [Id]
                               ,[MaterieId]
                               ,[Spec]

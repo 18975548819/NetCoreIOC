@@ -56,8 +56,35 @@ namespace Freed.Wms.Api.Controllers
             return Ok(result);
         }
 
+        /// <summary>
+        /// 获取物料入库信息
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        [Authorize, HttpPost, Route("get_InStorageGoodsList")]
+        public async Task<IActionResult> GetInStorageGoodsList(BaseInfoViewModel model)
+        {
+            GetWmsInStorageGoodsQuery getWmsInStorageGoods = new GetWmsInStorageGoodsQuery();
+            getWmsInStorageGoods.MaterieId = model.MaterieId;
+            getWmsInStorageGoods.RepertoryId = model.RepertoryId;
 
+            var query = new QueryData<GetWmsInStorageGoodsQuery>();
+            query.Criteria = getWmsInStorageGoods;
+            query.SqlConn = CurrentConnFactory;
+            query.RepertoryId = CurrentUser.WmsRepertory;
+            query.PageModel.PageIndex = model.PageIndex;
+            query.PageModel.PageSize = model.PageSize;
 
+            var result = await _manager.GetInStorageGoodListMaAsyn(query);
+
+            return Ok(result);
+        }
+
+        /// <summary>
+        /// 物料入库类型统计
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [Authorize, HttpPost, Route("get_InStorageGoodsInfo_DvActiveRingChart")]
         public async Task<IActionResult> GetInStorageGoodsInfoDvActiveRingChart(GetDvScrollBoardViewModel model)
         {
@@ -76,11 +103,11 @@ namespace Freed.Wms.Api.Controllers
             return Ok(result);
         }
 
-
-
-
-
-
+        /// <summary>
+        /// 近七天入库物料信息
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [Authorize, HttpPost, Route("get_InStorageGoodsInfo_ServerData")]
         public async Task<IActionResult> GetInStorageGoodsInfoServerData(GetDvScrollBoardViewModel model)
         {

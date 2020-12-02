@@ -1,4 +1,5 @@
-﻿using DataEntities.QueryModel;
+﻿using DataEntities.InterfaceEntities.WMS;
+using DataEntities.QueryModel;
 using DataModel.WMS;
 using Freed.Common.Data;
 using IBusinessManage.Base;
@@ -19,5 +20,12 @@ namespace IBusinessManage.WMS
         Task<ErrData<DvActiveRingChartModel>> GetOutStorageGoodInfoDvActiveRingChartMaAsyn(QueryData<GetWmsInStorageGoodsQuery> query);
 
         Task<ErrData<EchartsLineDataModels>> GetOutStorageGoodInfoByServerDayMaAsyn(QueryData<GetWmsInStorageGoodsQuery> query);
+
+        /// <summary>
+        /// 获取物料库存信息
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        Task<ListResult<IWmsOutStorageGoods>> GetOutStorageGoodListMaAsyn(QueryData<GetWmsInStorageGoodsQuery> query);
     }
 }

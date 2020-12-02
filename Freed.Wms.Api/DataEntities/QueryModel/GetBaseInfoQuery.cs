@@ -6,5 +6,8 @@ namespace DataEntities.QueryModel
 {
     public class GetBaseInfoQuery
     {
+        public string MaterieId { get; set; }
+
+        public string RepertoryId { get; set; }
     }
 }

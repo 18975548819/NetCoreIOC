@@ -1,4 +1,5 @@
-﻿using DataEntities.QueryModel;
+﻿using DataEntities.InterfaceEntities.WMS;
+using DataEntities.QueryModel;
 using DataModel.WMS;
 using Freed.Common.Data;
 using IBusinessManage.WMS;
@@ -182,6 +183,43 @@ namespace BusinessManage.WMS
 
             result.SetInfo(echartsLine, "成功", 200);
             result.ExpandSeconds = (DateTime.Now - dt).TotalSeconds;
+            return result;
+        }
+
+        /// <summary>
+        /// 获取入库物料信息
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        public async Task<ListResult<IWmsInStorageGoods>> GetInStorageGoodListMaAsyn(QueryData<GetWmsInStorageGoodsQuery> query)
+        {
+            var result = new ListResult<IWmsInStorageGoods>();
+            var dt = DateTime.Now;
+
+            try
+            {
+                var res = await _service.GetWmsInStorageGoodsListAsync(query);
+                if (res.HasErr)
+                {
+                    result.SetInfo(res.ErrMsg, res.ErrCode);
+                    return result;
+                }
+                else
+                {
+                    if (res.Data.Count > 0)
+                    {
+                        foreach (var item in res.Data)
+                        {
+                            result.Results.Add(item);
+                        }
+                    }
+                    result.SetInfo("成功", 200);
+                }
+            }
+            catch (Exception ex)
+            {
+                result.SetInfo(ex.ToString(),-500);
+            }
             return result;
         }
     }

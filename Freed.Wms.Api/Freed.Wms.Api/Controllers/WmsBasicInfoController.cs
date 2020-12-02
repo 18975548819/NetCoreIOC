@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using DataEntities.QueryModel;
 using Freed.Common.Data;
 using Freed.Wms.Api.Controllers.Base;
+using Freed.Wms.Api.Models;
 using IBusinessManage;
 using IBusinessManage.WMS;
 using Microsoft.AspNetCore.Authorization;
@@ -54,14 +55,18 @@ namespace Freed.Wms.Api.Controllers
         /// </summary>
         /// <returns></returns>
         [Authorize, HttpPost, Route("get_EchartsPieData")]
-        public async Task<IActionResult> GetEchartsPieData()
+        public async Task<IActionResult> GetEchartsPieData(BaseInfoViewModel model)
         {
             GetBaseInfoQuery infoQuery = new GetBaseInfoQuery();
+            infoQuery.MaterieId = model.MaterieId;
+            infoQuery.RepertoryId = model.RepertoryId;
 
             var query = new QueryData<GetBaseInfoQuery>();
             query.Criteria = infoQuery;
             query.SqlConn = CurrentConnFactory;
             query.RepertoryId = CurrentUser.WmsRepertory;
+            query.PageModel.PageIndex = model.PageIndex;
+            query.PageModel.PageSize = model.PageSize;
 
             var result = await _manager.GetEchartsPieDataMsAsync(query);
 
@@ -73,15 +78,18 @@ namespace Freed.Wms.Api.Controllers
         /// </summary>
         /// <returns></returns>
         [Authorize, HttpPost, Route("get_EchartsPieDataKC")]
-        public async Task<IActionResult> GetEchartsPieDataKC()
+        public async Task<IActionResult> GetEchartsPieDataKC(BaseInfoViewModel model)
         {
             GetBaseInfoQuery infoQuery = new GetBaseInfoQuery();
+            infoQuery.MaterieId = model.MaterieId;
+            infoQuery.RepertoryId = model.RepertoryId;
 
             var query = new QueryData<GetBaseInfoQuery>();
             query.Criteria = infoQuery;
             query.SqlConn = CurrentConnFactory;
             query.RepertoryId = CurrentUser.WmsRepertory;
-
+            query.PageModel.PageIndex = model.PageIndex;
+            query.PageModel.PageSize = model.PageSize;
             var result = await _manager.GetEchartsPieDataKCMsAsync(query);
 
             return Ok(result);

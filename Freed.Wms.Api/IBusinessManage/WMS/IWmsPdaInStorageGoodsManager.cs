@@ -1,4 +1,5 @@
-﻿using DataEntities.QueryModel;
+﻿using DataEntities.InterfaceEntities.WMS;
+using DataEntities.QueryModel;
 using DataModel.WMS;
 using Freed.Common.Data;
 using IBusinessManage.Base;
@@ -20,6 +21,13 @@ namespace IBusinessManage.WMS
         /// <param name="query"></param>
         /// <returns></returns>
         Task<ErrData<DvScrollBoardModel>> GetInStorageGoodInfoByDvScrollBoardMaAsyn(QueryData<GetWmsInStorageGoodsQuery> query);
+        
+        /// <summary>
+        /// 获取入库物料信息
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        Task<ListResult<IWmsInStorageGoods>> GetInStorageGoodListMaAsyn(QueryData<GetWmsInStorageGoodsQuery> query);
 
         /// <summary>
         /// 当天入库物料信息返回（动态环图）
