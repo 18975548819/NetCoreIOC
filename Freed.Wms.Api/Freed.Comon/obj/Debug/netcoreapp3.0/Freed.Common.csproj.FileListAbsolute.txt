@@ -27,7 +27,6 @@ D:\项目代码\WMS数据展示\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\bin\Debug\netcoreapp3.0\Freed.Common.deps.json
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\bin\Debug\netcoreapp3.0\Freed.Common.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\bin\Debug\netcoreapp3.0\Freed.Common.pdb
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.0\Freed.Common.csprojAssemblyReference.cache
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.0\Freed.Common.AssemblyInfoInputs.cache
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.0\Freed.Common.AssemblyInfo.cs
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.0\Freed.Common.csproj.CoreCompileInputs.cache

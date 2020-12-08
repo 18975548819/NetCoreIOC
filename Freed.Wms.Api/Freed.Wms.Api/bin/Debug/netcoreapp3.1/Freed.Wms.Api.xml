@@ -218,6 +218,36 @@
             仓位
             </summary>
         </member>
+        <member name="T:Freed.Wms.Api.Models.ConsulOption">
+            <summary>
+            Consul 注册发现相关参数
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ConsulOption.ServiceName">
+            <summary>
+            服务名称
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ConsulOption.ServiceIP">
+            <summary>
+            服务IP
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ConsulOption.ServicePort">
+            <summary>
+            服务端口
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ConsulOption.ServiceHealthCheck">
+            <summary>
+            服务健康检查地址
+            </summary>
+        </member>
+        <member name="P:Freed.Wms.Api.Models.ConsulOption.Address">
+            <summary>
+            Consul 地址
+            </summary>
+        </member>
         <member name="P:Freed.Wms.Api.Models.LoginViewModel.LoginName">
             <summary>
             登录名

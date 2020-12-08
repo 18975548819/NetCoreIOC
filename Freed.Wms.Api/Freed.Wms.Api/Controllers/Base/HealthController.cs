@@ -16,13 +16,7 @@ namespace Freed.Wms.Api.Controllers.Base
     [ApiController]
     public class HealthController : ControllerBase
     {
-        //private IWmsPdaConfigManager _manager;
         private  IConfiguration _configuration;
-        //public HealthController(IConfiguration configuration, IWmsPdaConfigManager manager) : base(manager)
-        //{
-        //    _manager = manager;
-        //    _configuration = configuration;
-        //}
 
         public HealthController(IConfiguration configuration)
         {
@@ -34,7 +28,7 @@ namespace Freed.Wms.Api.Controllers.Base
         public IActionResult Index()
         {
             Console.WriteLine($"心跳健康检查:{_configuration["port"]}端口正常！");
-            return Ok();
+            return Ok($"心跳健康检查:{_configuration["port"]}端口正常！");
         }
     }
 }

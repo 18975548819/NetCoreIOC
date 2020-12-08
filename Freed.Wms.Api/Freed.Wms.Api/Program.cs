@@ -35,6 +35,7 @@ namespace Freed.Wms.Api
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
                 WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>().UseUrls("http://*:8011;https://*:8011");
+            .UseStartup<Startup>().UseUrls("http://*:5088;https://*:5081");  //代码调试环境使用，项目属性=》调试=》项目浏览器地址、应用URL地址需要改为一致
+        //.UseStartup<Startup>().UseUrls("http://10.19.87.203:8011");  //注册consul时使用  健康检查
     }
 }

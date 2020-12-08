@@ -448,10 +448,6 @@
               "target": "Package",
               "version": "[3.1.8, )"
             },
-            "Microsoft.Azure.Mobile.Server": {
-              "target": "Package",
-              "version": "[2.0.3, )"
-            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.7.1, )"

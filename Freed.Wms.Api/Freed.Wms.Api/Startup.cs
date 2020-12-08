@@ -9,6 +9,7 @@ using Autofac.Extensions.DependencyInjection;
 using DataModel.Authorize;
 using DataService.Base;
 using Freed.Wms.Api.Filter;
+using Freed.Wms.Api.Models;
 using Freed.Wms.Api.SwaggerHeple;
 using Freed.Wms.Api.Utility;
 using IBusinessManage.Base;
@@ -40,6 +41,7 @@ namespace Freed.Wms.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton(Configuration.GetSection("Consul").Get<ConsulOption>());  //获取consul注册所需参数
             services.AddControllers();
             //全局异常捕获
             services.AddControllers(
@@ -181,6 +183,7 @@ namespace Freed.Wms.Api
 
             //初始化
             connection.InitService(connModel);
+
             #region Consul注册 
             //站点启动完成--执行且只执行一次
             //this.Configuration.ConsulRegist();
