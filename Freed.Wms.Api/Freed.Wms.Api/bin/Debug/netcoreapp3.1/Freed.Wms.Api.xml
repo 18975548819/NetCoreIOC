@@ -66,6 +66,11 @@
             </summary>
             <param name="valcode"></param>
         </member>
+        <member name="T:Freed.Wms.Api.Controllers.Base.HealthController">
+            <summary>
+            健康检查
+            </summary>
+        </member>
         <member name="T:Freed.Wms.Api.Controllers.InStorageGoodsController">
             <summary>
             入库物料
@@ -282,6 +287,17 @@
             <summary>
             扫描时间
             </summary>
+        </member>
+        <member name="T:Freed.Wms.Api.Utility.ConsulHelper">
+            <summary>
+            Consul注册
+            </summary>
+        </member>
+        <member name="M:Freed.Wms.Api.Utility.ConsulHelper.ConsulRegist(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            注册
+            </summary>
+            <param name="configuration"></param>
         </member>
     </members>
 </doc>

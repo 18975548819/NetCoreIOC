@@ -52,6 +52,18 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
         }
       },
+      "Consul/1.6.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "Dapper/2.0.35": {
         "type": "package",
         "dependencies": {
@@ -111,6 +123,27 @@
         },
         "runtime": {
           "lib/netstandard1.3/log4net.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
@@ -209,6 +242,48 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Microsoft.Azure.Mobile.Server/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net46/Microsoft.Azure.Mobile.Server.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Microsoft.Azure.Mobile.Server.dll": {}
+        },
+        "resource": {
+          "lib/net46/de/Microsoft.Azure.Mobile.Server.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net46/es/Microsoft.Azure.Mobile.Server.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net46/fr/Microsoft.Azure.Mobile.Server.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net46/it/Microsoft.Azure.Mobile.Server.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net46/ja/Microsoft.Azure.Mobile.Server.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net46/ko/Microsoft.Azure.Mobile.Server.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net46/ru/Microsoft.Azure.Mobile.Server.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net46/zh-Hans/Microsoft.Azure.Mobile.Server.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net46/zh-Hant/Microsoft.Azure.Mobile.Server.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
       },
       "Microsoft.CSharp/4.6.0": {
         "type": "package",
@@ -2771,6 +2846,19 @@
         "lib/xamarinios/BouncyCastle.Crypto.xml"
       ]
     },
+    "Consul/1.6.1.1": {
+      "sha512": "AJkBiix1bT3cSZRO6OD0Ee31Co1qgVkmVBFwpxym9WdxH5K6LfmAZ8Vb8nGvo9EKC+ir2sv5fKIrY75aENcMDA==",
+      "type": "package",
+      "path": "consul/1.6.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consul.1.6.1.1.nupkg.sha512",
+        "consul.nuspec",
+        "lib/net461/Consul.dll",
+        "lib/netstandard2.0/Consul.dll"
+      ]
+    },
     "Dapper/2.0.35": {
       "sha512": "/xAgd8BO8EDnJ0sURWEV8LptHHvTKxoYiT63YUF2U/yWE2VyUCqR2jcrtEyNngT9Kjzppecz95UKiBla3PnR7g==",
       "type": "package",
@@ -2823,6 +2911,35 @@
         "lib/netstandard1.3/log4net.dll",
         "log4net.2.0.8.nupkg.sha512",
         "log4net.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.3": {
+      "sha512": "3kiI8peSXbXHDDrRuo+QaX0iCEVRe0nvn2dBDRw656uPX32UalbBlSIDUDlJxu05eau4tnuhsikiUuugvvoUoQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.3": {
+      "sha512": "o90QYlRV8VKR1S7+EcJw9w8WSyVFLl+IIzN8ILZ+n2t6rsc/KS8kBxRzA7wCFPRUHhebCfLqilBk39phvanx3g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.8": {
@@ -2916,6 +3033,28 @@
         "lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
         "microsoft.aspnetcore.mvc.newtonsoftjson.3.0.0.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
+      ]
+    },
+    "Microsoft.Azure.Mobile.Server/2.0.3": {
+      "sha512": "jwkhW2tpxh64t4MtkdjBAoVfRAZulbdrXKBrSAFlHq2WCrnHwCrDUxcKHdwYRpDzKrEiiM1T2xoZdtt8D0sdJw==",
+      "type": "package",
+      "path": "microsoft.azure.mobile.server/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Microsoft.Azure.Mobile.Server.dll",
+        "lib/net46/Microsoft.Azure.Mobile.Server.xml",
+        "lib/net46/de/Microsoft.Azure.Mobile.Server.resources.dll",
+        "lib/net46/es/Microsoft.Azure.Mobile.Server.resources.dll",
+        "lib/net46/fr/Microsoft.Azure.Mobile.Server.resources.dll",
+        "lib/net46/it/Microsoft.Azure.Mobile.Server.resources.dll",
+        "lib/net46/ja/Microsoft.Azure.Mobile.Server.resources.dll",
+        "lib/net46/ko/Microsoft.Azure.Mobile.Server.resources.dll",
+        "lib/net46/ru/Microsoft.Azure.Mobile.Server.resources.dll",
+        "lib/net46/zh-Hans/Microsoft.Azure.Mobile.Server.resources.dll",
+        "lib/net46/zh-Hant/Microsoft.Azure.Mobile.Server.resources.dll",
+        "microsoft.azure.mobile.server.2.0.3.nupkg.sha512",
+        "microsoft.azure.mobile.server.nuspec"
       ]
     },
     "Microsoft.CSharp/4.6.0": {
@@ -8305,10 +8444,12 @@
       "Autofac.Configuration >= 5.1.0",
       "Autofac.Extensions.DependencyInjection >= 6.0.0",
       "BusinessManage >= 1.0.0",
+      "Consul >= 1.6.1.1",
       "DataService >= 1.0.0",
       "IBusinessManage >= 1.0.0",
       "IDataService >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.8",
+      "Microsoft.Azure.Mobile.Server >= 2.0.3",
       "Microsoft.IdentityModel.Tokens >= 6.7.1",
       "Swashbuckle.AspNetCore.Filters >= 5.1.2",
       "Swashbuckle.AspNetCore.Swagger >= 5.6.3",
@@ -8323,11 +8464,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj",
+      "projectUniqueName": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj",
       "projectName": "Freed.Wms.Api",
-      "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj",
+      "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj",
       "packagesPath": "C:\\Users\\zeng.tao\\.nuget\\packages\\",
-      "outputPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Wms.Api\\obj\\",
+      "outputPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8346,18 +8487,19 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj": {
-              "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj"
+            "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj": {
+              "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj"
             },
-            "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataService\\DataService.csproj": {
-              "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataService\\DataService.csproj"
+            "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj": {
+              "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj"
             },
-            "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
-              "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj"
+            "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
+              "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj"
             },
-            "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
-              "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
+            "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
+              "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
             }
           }
         }
@@ -8370,6 +8512,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Autofac": {
             "target": "Package",
@@ -8383,9 +8526,17 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
+          "Consul": {
+            "target": "Package",
+            "version": "[1.6.1.1, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[3.1.8, )"
+          },
+          "Microsoft.Azure.Mobile.Server": {
+            "target": "Package",
+            "version": "[2.0.3, )"
           },
           "Microsoft.IdentityModel.Tokens": {
             "target": "Package",
@@ -8426,8 +8577,40 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Microsoft.AspNet.WebApi.Client 5.2.3”。此包可能与项目不完全兼容。",
+      "libraryId": "Microsoft.AspNet.WebApi.Client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Microsoft.AspNet.WebApi.Core 5.2.3”。此包可能与项目不完全兼容。",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8”而不是项目目标框架“.NETCoreApp,Version=v3.1”还原包“Microsoft.Azure.Mobile.Server 2.0.3”。此包可能与项目不完全兼容。",
+      "libraryId": "Microsoft.Azure.Mobile.Server",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

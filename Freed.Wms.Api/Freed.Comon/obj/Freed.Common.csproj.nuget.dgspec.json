@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {}
+    "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {}
   },
   "projects": {
-    "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
+    "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
+        "projectUniqueName": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
         "projectName": "Freed.Common",
-        "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
+        "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
         "packagesPath": "C:\\Users\\zeng.tao\\.nuget\\packages\\",
-        "outputPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Comon\\obj\\",
+        "outputPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -41,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -100,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

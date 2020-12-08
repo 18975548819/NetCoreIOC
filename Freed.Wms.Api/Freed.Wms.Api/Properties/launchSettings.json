@@ -20,11 +20,11 @@
     "Freed.Wms.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5088",
+      "launchUrl": "http://10.19.87.203:8011",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:5088"
+      "applicationUrl": "http://10.19.87.203:811"
     }
   }
 }

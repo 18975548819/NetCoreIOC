@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0tXOCqMLPEXWumUUfQjbiEfoI3K+Se8E+7IVNvlVcc3lqgkIPOsxwZu4IiZDhJSPsJwv2vg7dTXwgStYI2SOSg==",
+  "dgSpecHash": "VfT4OlZN+sul9++hSQ0EULDTjU3OiTneY5MmPnPVJB0lrGYj4w18xbF3IWyzrsLMhzQu4KXvuxY+W/5KxIGfMA==",
   "success": true,
-  "projectFilePath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
+  "projectFilePath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

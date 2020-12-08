@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Y1gI1StvG1uEEttTK40SB2fkZpsiMVJfYE5uPSUToKHgSF3WZ7gI5qHdfHNf2+LRY6CJ53EyquDra8akNexqQ==",
+  "dgSpecHash": "IoqqlU7jo+VPwJ4ZaLlgGIeQoxxXeQxFeS3ySzrdRkX0g7GSidCsdd9dl9YzWWIibGQhfMngPugXQakONVTYiw==",
   "success": true,
-  "projectFilePath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IDataService\\IDataService.csproj",
+  "projectFilePath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeng.tao\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\zeng.tao\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",

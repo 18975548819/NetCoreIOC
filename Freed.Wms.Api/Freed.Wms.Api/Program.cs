@@ -35,6 +35,6 @@ namespace Freed.Wms.Api
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
                 WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>().UseUrls("http://*:5088;https://*:5081");
+                .UseStartup<Startup>().UseUrls("http://*:8011;https://*:8011");
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uRnQHwb1lAM/n1i0AqhKsfVFjBcy/GN/TwFaftZqfSCs+zGR4Nbhg3gEei9bOMI9Nr5/MekA3xP4kl5Qz4fv0Q==",
+  "dgSpecHash": "IjpB8edN2DtWrE1hItmJQ1qi35ujN37U/X/9AJxxkcXvDNcSZGv+OgPbgWC+cgKATElm5DcucBTJ5KXPVpZnjQ==",
   "success": true,
-  "projectFilePath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
+  "projectFilePath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeng.tao\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\zeng.tao\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
+      "projectUniqueName": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
       "projectName": "DataEntities",
-      "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
+      "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
       "packagesPath": "C:\\Users\\zeng.tao\\.nuget\\packages\\",
-      "outputPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataEntities\\obj\\",
+      "outputPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -37,6 +37,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -48,6 +49,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -63,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

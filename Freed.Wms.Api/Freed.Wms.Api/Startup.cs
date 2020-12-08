@@ -10,6 +10,7 @@ using DataModel.Authorize;
 using DataService.Base;
 using Freed.Wms.Api.Filter;
 using Freed.Wms.Api.SwaggerHeple;
+using Freed.Wms.Api.Utility;
 using IBusinessManage.Base;
 using IDataService.Base;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -180,6 +181,10 @@ namespace Freed.Wms.Api
 
             //初始化
             connection.InitService(connModel);
+            #region Consul注册 
+            //站点启动完成--执行且只执行一次
+            //this.Configuration.ConsulRegist();
+            #endregion
         }
     }
 }

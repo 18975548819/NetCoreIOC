@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DGJjE5oI8tePJIy2As1c51cYkNeU2I2PLLImDZDbABJFbXRnQAEodlrf7vrhohe/fehlW2cgqyLMLzjyAvAq5A==",
+  "dgSpecHash": "6asuO+b8glZtwobcvt1gsiftUZ7DGBc2344d9qsVCzoaqn/OMNJv7mrHCSYszJ6n9C9+rm9dSv6P4X3/gtCgjg==",
   "success": true,
-  "projectFilePath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj",
+  "projectFilePath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeng.tao\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\zeng.tao\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",

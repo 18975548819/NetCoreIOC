@@ -7540,11 +7540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataService\\DataService.csproj",
+      "projectUniqueName": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj",
       "projectName": "DataService",
-      "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataService\\DataService.csproj",
+      "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj",
       "packagesPath": "C:\\Users\\zeng.tao\\.nuget\\packages\\",
-      "outputPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataService\\obj\\",
+      "outputPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7563,9 +7563,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
-              "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
+            "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
+              "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
             }
           }
         }
@@ -7578,6 +7579,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",
@@ -7603,7 +7605,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

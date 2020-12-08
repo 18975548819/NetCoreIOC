@@ -7421,11 +7421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj",
+      "projectUniqueName": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj",
       "projectName": "IBusinessManage",
-      "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj",
+      "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj",
       "packagesPath": "C:\\Users\\zeng.tao\\.nuget\\packages\\",
-      "outputPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\IBusinessManage\\obj\\",
+      "outputPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7444,15 +7444,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj": {
-              "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj"
+            "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj": {
+              "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj"
             },
-            "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataModel\\DataModel.csproj": {
-              "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\DataModel\\DataModel.csproj"
+            "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj": {
+              "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj"
             },
-            "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
-              "projectPath": "D:\\项目代码\\WMS数据展示\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj"
+            "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
+              "projectPath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj"
             }
           }
         }
@@ -7465,6 +7466,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -7480,7 +7482,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
