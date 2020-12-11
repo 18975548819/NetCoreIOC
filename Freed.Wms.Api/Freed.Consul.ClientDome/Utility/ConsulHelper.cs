@@ -30,7 +30,7 @@ namespace Freed.Consul.ClientDome.Utility
             var list = new List<string>();
             foreach (var catalogService in result.Response)
             {
-                int weig = Convert.ToInt32(catalogService.ServiceTags[0]);
+                //int weig = Convert.ToInt32(catalogService.ServiceTags[0]);
                 //1、拼接连接地址
                 list.Add(catalogService.ServiceAddress + ":" + catalogService.ServicePort);
             }

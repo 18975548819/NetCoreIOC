@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IoqqlU7jo+VPwJ4ZaLlgGIeQoxxXeQxFeS3ySzrdRkX0g7GSidCsdd9dl9YzWWIibGQhfMngPugXQakONVTYiw==",
+  "dgSpecHash": "GZLovJ0Ttb6gB0WhQGX4/MhMAyGp8JGb//HV2YCfGUm7U/sk7TYZpHgclvo9uHsUY2SdPi75p1ttlIzKVDauMg==",
   "success": true,
   "projectFilePath": "D:\\Git\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj",
   "expectedPackageFiles": [
@@ -125,7 +125,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\zeng.tao\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\zeng.tao\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\zeng.tao\\.nuget\\packages\\system.threading.overlapped\\4.0.1\\system.threading.overlapped.4.0.1.nupkg.sha512",

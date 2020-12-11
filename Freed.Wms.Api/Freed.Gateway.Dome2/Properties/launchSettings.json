@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:57428",
-      "sslPort": 44374
+      "applicationUrl": "http://localhost:65444",
+      "sslPort": 44362
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Freed.Geteway.Dome": {
+    "Freed.Gateway.Dome2": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "http://localhost:5001",

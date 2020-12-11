@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -9,13 +10,12 @@ using Microsoft.Extensions.Logging;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Ocelot.Provider.Consul;
-using Ocelot.Provider.Polly;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Freed.Geteway.Dome
+namespace Freed.Gateway.Dome2
 {
     public class Startup
     {
@@ -30,23 +30,30 @@ namespace Freed.Geteway.Dome
         public void ConfigureServices(IServiceCollection services)
         {
             //services.AddControllers();
-            services.AddOcelot(); //如何处理
-                //.AddConsul();
-                //.AddPolly();
+            services.AddOcelot()
+                .AddConsul();
+            //services.AddOcelot(Configuration).AddConsul();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseOcelot().Wait(); //去掉默认管道，使用Ocelot管道处理
+            app.UseOcelot();
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
+            //app.UseOcelot().Wait();//设置所有的Ocelot中间件
+            //app.Run(async (context) =>
+            //{
+            //    await context.Response.WriteAsync("Hello World!");
+            //});
             //if (env.IsDevelopment())
             //{
             //    app.UseDeveloperExceptionPage();
             //}
 
             //app.UseHttpsRedirection();
-
-            //app.UseOcelot().Wait(); //Ocelot
 
             //app.UseRouting();
 

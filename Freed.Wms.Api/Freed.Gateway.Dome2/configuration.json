@@ -1,0 +1,149 @@
+//**********************单地址*********************
+{
+  "ReRoutes": [
+    {
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "10.0.40.16",
+      //    "Port": 8099
+      //  },
+      //  {
+      //    "Host": "10.0.40.16",
+      //    "Port": 8090
+      //  }
+      //],
+      "DownstreamPathTemplate": "/v1/api/Account/get_wms_pda_config",
+      "DownstreamScheme": "http",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询  LeastConnection-最少连接数的服务器 NoLoadBalance不负载均衡
+      },
+      "ServiceName": "WMS",
+      //"UseServiceDiscovery": true, //使用服务发现
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "UpstreamPathTemplate": "/WMS/Account/get_wms_pda_config" //上游地址模板
+    }
+  ],
+  "UseServiceDiscovery": true, //使用服务发现
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Host": "10.0.40.16",
+      "Port": 8500,
+      "Type": "Consul" //由Consul提供服务
+    }
+  }
+}
+
+
+
+//************************负载均衡+consul*****************************
+//{
+//  "GlobalConfiguration": {
+//    //"ReRouteIsCaseSensitive": false, // 路由是否区分大小写
+//    //"BaseUrl": "http://127.0.0.1:5008", //网关对外地址
+//    "ServiceDiscoveryProvider": {
+//      "Host": "10.0.40.16",
+//      "Port": 8500,
+//      "Type": "Consul",
+//      "PollingInterval": 100
+
+//    }
+//  },
+//  "Routes": [
+//    {
+//      "DownstreamPathTemplate": "/{url}",
+//      "DownstreamScheme": "http",
+//      "ServiceName": "Freed_01",
+//      "UpstreamPathTemplate": "/T8/{url}", //上游地址模板
+//      "UpstreamHttpMethod": [ "Get", "Post" ],
+//      "UseServiceDiscovery": true, //使用服务发现
+//      "LoadBalancerOptions": {
+//        "Type": "RoundRobin" //轮询RoundRobin   LeastConnection-最少连接数的服务器 NoLoadBalance不负载均衡
+//      }
+//    }
+//  ]
+//}
+
+
+//{
+//  "GlobalConfiguration": {
+//    "BaseUrl": "http://10.19.87.203:6299", //网关对外地址
+//    "ServiceDiscoveryProvider": {
+//      "Scheme": "http",
+//      "Host": "10.0.40.16",
+//      "Port": 8500,
+//      "Type": "Consul" //由Consul提供服务
+//    }
+//  },
+//  "Routes": [
+//    {
+//      "DownstreamPathTemplate": "/{url}",
+//      "DownstreamScheme": "http",
+//      //"ServiceName": "Freed",
+//      //"DownstreamHostAndPorts": [
+//      //  {
+//      //    "Host": "192.168.124.11",
+//      //    "Port": 8000
+//      //  },
+//      //  {
+//      //    "Host": "192.168.124.11",
+//      //    "Port": 8001
+//      //  }
+//      //],
+//      "UpstreamPathTemplate": "/T/{url}", //上游地址模板
+//      "UpstreamHttpMethod": [ "Get", "Post" ],
+//      "UseServiceDiscovery": true, //使用服务发现
+//      "LoadBalancerOptions": {
+//        "Type": "RoundRobin" //轮询  LeastConnection-最少连接数的服务器 NoLoadBalance不负载均衡
+//      }
+//      //,
+//      //"RateLimitOptions": {
+//      //  "ClientWhitelist": [], // 白名单，不受限流控制
+//      //  "EnableRateLimiting": true, // 开启限流
+//      //  "Period": "5s", // 指定时间段内（s,m,h,d）
+//      //  "PeriodTimespan": 5, // 超过限制次数后需等待的时间（秒）
+//      //  "Limit": 5 // 在 Period 时间段内最大访问数次数
+//      //},
+//      //"QoSOptions": { // Install-Package Ocelot.Provider.Polly
+//      //  "ExceptionsAllowedBeforeBreaking": 3, // 连续异常次数
+//      //  "DurationOfBreak": 5000, // 熔断时间
+//      //  "TimeoutValue": 5000 // 超时时间
+//      //}
+//      //"FileCacheOptions": { // Install-Package Ocelot.Cache.CacheManager
+//      //  "TtlSeconds": 15,
+//      //  "Region": "servicea"
+//      //}
+//    }
+//  ]
+//}
+
+
+
+//{
+//  "ReRoutes": [
+//    {
+//      "DownstreamPathTemplate": "/{url}",
+//      "DownstreamScheme": "http",
+//      "ServiceName": "Freed",
+//      "UpstreamPathTemplate": "/T8087/{url}", //上游地址模板
+//      "UpstreamHttpMethod": [ "Get", "Post" ],
+//      "UseServiceDiscovery": true,
+//      "LoadBalancerOptions": {
+//        "Type": "RoundRobin" //轮询  LeastConnection-最少连接数的服务器 NoLoadBalance不负载均衡
+//      }
+//    }
+//  ],
+//  "GlobalConfiguration": {
+//    "BaseUrl": "http://localhost:5001", //网关对外地址
+//    "ServiceDiscoveryProvider": {
+//      "Host": "10.0.40.16",
+//      "Port": 8500,
+//      "Type": "Consul" //由Consul提供服务
+//    },
+//    "RateLimitOptions": {
+//      "ClientIdHeader": "Client_01",
+//      "QuotaExceededMessage": "Too Many Requests!!!",
+//      "DisableRateLimitHeaders": false
+//    }
+//  }
+//}
+

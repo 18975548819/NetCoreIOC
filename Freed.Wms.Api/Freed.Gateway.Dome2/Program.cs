@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Freed.Geteway.Dome
+namespace Freed.Gateway.Dome2
 {
     public class Program
     {
@@ -18,13 +18,13 @@ namespace Freed.Geteway.Dome
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-            .ConfigureAppConfiguration(conf =>
-            {
-                conf.AddJsonFile("configuration.json", optional: false, reloadOnChange: true);
-            })
-            .ConfigureWebHostDefaults(webBuilder =>
-            {
-                webBuilder.UseStartup<Startup>().UseUrls("http://*:5001");
-            });
+                        .ConfigureAppConfiguration(conf =>
+                        {
+                            conf.AddJsonFile("configuration.json", optional: false, reloadOnChange: true);
+                        })
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }
