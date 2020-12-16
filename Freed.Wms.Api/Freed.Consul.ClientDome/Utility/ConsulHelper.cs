@@ -25,7 +25,7 @@ namespace Freed.Consul.ClientDome.Utility
                 config.Address = new Uri("http://10.0.40.16:8500");
             });
             //2.0查询服务
-            var result = await consulClient.Catalog.Service("Freed");
+            var result = await consulClient.Catalog.Service("WMS");
             //3.0将服务进行拼接
             var list = new List<string>();
             foreach (var catalogService in result.Response)

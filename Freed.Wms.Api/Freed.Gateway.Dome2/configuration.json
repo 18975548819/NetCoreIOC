@@ -12,23 +12,24 @@
       //    "Port": 8090
       //  }
       //],
-      "DownstreamPathTemplate": "/v1/api/Account/get_wms_pda_config",
+      "DownstreamPathTemplate": "/v1/api/{url}",
       "DownstreamScheme": "http",
       "LoadBalancerOptions": {
         "Type": "RoundRobin" //轮询  LeastConnection-最少连接数的服务器 NoLoadBalance不负载均衡
       },
       "ServiceName": "WMS",
-      //"UseServiceDiscovery": true, //使用服务发现
+      "UseServiceDiscovery": true, //使用服务发现
       "UpstreamHttpMethod": [ "Get", "Post" ],
-      "UpstreamPathTemplate": "/WMS/Account/get_wms_pda_config" //上游地址模板
+      "UpstreamPathTemplate": "/WMS/{url}", //上游地址模板
+      "ReRoutesCaseSensitive": false
     }
   ],
-  "UseServiceDiscovery": true, //使用服务发现
   "GlobalConfiguration": {
     "ServiceDiscoveryProvider": {
       "Host": "10.0.40.16",
       "Port": 8500,
-      "Type": "Consul" //由Consul提供服务
+      "Type": "Consul"//由Consul提供服务
+      //"ConfigurationKey": "Gateway" //存储在Consul上的Key
     }
   }
 }

@@ -20,7 +20,7 @@ namespace Freed.Gateway.Dome2
             Host.CreateDefaultBuilder(args)
                         .ConfigureAppConfiguration(conf =>
                         {
-                            conf.AddJsonFile("configuration.json", optional: false, reloadOnChange: true);
+                            conf.AddJsonFile("configuration.json", optional: false, reloadOnChange: true).Build();
                         })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
