@@ -44,6 +44,7 @@ namespace Freed.Wms.Api.Utility
                     {
                         Interval = TimeSpan.FromSeconds(10),  //间隔多久一次
                         HTTP = $"http://{ip}:{port}/api/Health/Index",  //心跳检查：代码调试可用，如果是正式环境需要在启动consul客户端时配置注册文件
+                        //HTTP = $"http://localhost:5088/api/Health/Index",  //心跳检查：代码调试可用，如果是正式环境需要在启动consul客户端时配置注册文件
                         Timeout = TimeSpan.FromSeconds(5),  //多久检查一次
                         DeregisterCriticalServiceAfter = TimeSpan.FromSeconds(60)  //失败多久移除
                     }

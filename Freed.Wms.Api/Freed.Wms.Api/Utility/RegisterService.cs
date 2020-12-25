@@ -10,7 +10,7 @@ namespace Freed.Wms.Api.Utility
 {
     public static class RegisterService
     {
-        const string _consulIP = "10.0.40.16";
+        const string _consulIP = "localhost";
         const int _consulPort = 8500;
         public static IApplicationBuilder RegisterConsul(this IApplicationBuilder app, IHostApplicationLifetime lifetime, IWebHostEnvironment env, IConfiguration configuration)
         {
@@ -18,8 +18,8 @@ namespace Freed.Wms.Api.Utility
             if (server.Contains("/") && server.Contains(":"))
             {
                 var str = server.Split('/').LastOrDefault().Split(':');
-                string _ip = "10.19.87.203";
-                int _port = Convert.ToInt32("8088");
+                string _ip = "localhost";
+                int _port = Convert.ToInt32("8011");
                 try
                 {
                     if (_port > 0)

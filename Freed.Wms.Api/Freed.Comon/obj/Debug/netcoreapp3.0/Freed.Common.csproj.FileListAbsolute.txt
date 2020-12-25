@@ -32,3 +32,4 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.0\Freed.Common
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.0\Freed.Common.csproj.CoreCompileInputs.cache
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.0\Freed.Common.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.0\Freed.Common.pdb
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Comon\obj\Debug\netcoreapp3.0\Freed.Common.csprojAssemblyReference.cache

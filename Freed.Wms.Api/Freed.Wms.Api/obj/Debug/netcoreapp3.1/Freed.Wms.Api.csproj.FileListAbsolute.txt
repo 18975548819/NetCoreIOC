@@ -167,15 +167,3 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.pdb
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.genruntimeconfig.cache
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Consul.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\System.Web.Http.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Microsoft.Azure.Mobile.Server.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\de\Microsoft.Azure.Mobile.Server.resources.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\es\Microsoft.Azure.Mobile.Server.resources.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\fr\Microsoft.Azure.Mobile.Server.resources.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\it\Microsoft.Azure.Mobile.Server.resources.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\ja\Microsoft.Azure.Mobile.Server.resources.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\ko\Microsoft.Azure.Mobile.Server.resources.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\ru\Microsoft.Azure.Mobile.Server.resources.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.Azure.Mobile.Server.resources.dll
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Azure.Mobile.Server.resources.dll
