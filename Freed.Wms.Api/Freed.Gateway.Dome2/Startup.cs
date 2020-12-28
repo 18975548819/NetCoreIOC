@@ -26,11 +26,17 @@ using Ocelot.RequestId.Middleware;
 using Ocelot.LoadBalancer.Middleware;
 using Ocelot.DownstreamUrlCreator.Middleware;
 using Ocelot.Cache.Middleware;
+using Ocelot.Provider.Polly;
+using IdentityServer4.AccessTokenValidation;
+using Ocelot.Cache.CacheManager;
+using Ocelot.Cache;
+using Freed.Gateway.Dome2.Unittiy;
 
 namespace Freed.Gateway.Dome2
 {
     public class Startup
     {
+        //dotnet Freed.Gateway.Dome2.dll --urls="http://10.19.87.203:5001" --ip="10.19.87.203" --port="5001"
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -41,9 +47,34 @@ namespace Freed.Gateway.Dome2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            #region Ids4 鉴权
+            var authenticationProviderKey = "UserGatewayKey";
+            services.AddAuthentication("Bearer")
+               .AddIdentityServerAuthentication(authenticationProviderKey, options =>
+               {
+                   //options.Authority = "http://localhost:7200";
+                   options.Authority = "http://10.19.87.203:6299";
+                   options.ApiName = "FreedApi";
+                   options.RequireHttpsMetadata = false;
+                   options.SupportedTokens = SupportedTokens.Both;
+               });
+            #endregion
+
             services.AddControllers();
-            services.AddOcelot()
-                .AddConsul();
+            //services.AddOcelot()
+            //    .AddConsul()
+            //    .AddPolly();  //熔断、限流
+
+            services.AddOcelot()//Ocelot如何处理
+                .AddConsul()//支持Consul
+                .AddCacheManager(x =>
+                {
+                    x.WithDictionaryHandle();//默认字典存储
+                })
+                .AddPolly();
+
+            services.AddSingleton<IOcelotCache<CachedResponse>, CustomCache>();//自定义缓存--Redis分布式缓存
+
 
             //services.AddOcelot(
             //     new ConfigurationBuilder()

@@ -187,6 +187,7 @@ namespace Freed.Gateway.Dome2
             throw new Exception($"Unable to start Ocelot, errors are: {string.Join(",", config.Errors.Select(x => x.ToString()))}");
         }
 
+        [Obsolete]
         private static void ConfigureDiagnosticListener(IApplicationBuilder builder)
         {
             var env = builder.ApplicationServices.GetService<IHostingEnvironment>();

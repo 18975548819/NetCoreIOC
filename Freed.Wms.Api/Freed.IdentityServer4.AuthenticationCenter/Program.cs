@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -9,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Freed.Gateway.Dome2
+namespace Freed.IdentityServer4.AuthenticationCenter
 {
     public class Program
     {
@@ -22,19 +21,13 @@ namespace Freed.Gateway.Dome2
                 .Build();
 
             CreateHostBuilder(args).Build().Run();
-            //CreateWebHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                        .ConfigureAppConfiguration(conf =>
-                        {
-                            conf.AddJsonFile("configuration.json", optional: false, reloadOnChange: true).Build();
-                        })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
                 });
-
     }
 }

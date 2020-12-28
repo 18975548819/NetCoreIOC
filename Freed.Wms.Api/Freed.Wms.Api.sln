@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Freed.Consul.ClientDome", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Freed.Gateway.Dome2", "Freed.Gateway.Dome2\Freed.Gateway.Dome2.csproj", "{B4AEAFE7-5381-4C3C-B8BD-14E038198DDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.IdentityServer4.AuthenticationCenter", "Freed.IdentityServer4.AuthenticationCenter\Freed.IdentityServer4.AuthenticationCenter.csproj", "{8EFB7288-F4BB-44ED-B0EA-64E90852DF3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{B4AEAFE7-5381-4C3C-B8BD-14E038198DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4AEAFE7-5381-4C3C-B8BD-14E038198DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4AEAFE7-5381-4C3C-B8BD-14E038198DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFB7288-F4BB-44ED-B0EA-64E90852DF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFB7288-F4BB-44ED-B0EA-64E90852DF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFB7288-F4BB-44ED-B0EA-64E90852DF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFB7288-F4BB-44ED-B0EA-64E90852DF3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

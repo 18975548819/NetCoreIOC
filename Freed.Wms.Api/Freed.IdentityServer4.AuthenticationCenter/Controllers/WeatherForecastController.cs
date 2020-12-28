@@ -5,14 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Freed.Gateway.Dome2.Controllers
+namespace Freed.IdentityServer4.AuthenticationCenter.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        //dotnet Freed.Gateway.Dome2.dll --urls="http://10.19.87.203:5001" --ip="10.19.87.203" --port="5001"
-
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
