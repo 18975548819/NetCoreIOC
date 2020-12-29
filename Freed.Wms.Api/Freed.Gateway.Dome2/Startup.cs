@@ -53,7 +53,8 @@ namespace Freed.Gateway.Dome2
                .AddIdentityServerAuthentication(authenticationProviderKey, options =>
                {
                    //options.Authority = "http://localhost:7200";
-                   options.Authority = "http://10.19.87.203:6299";
+                   //options.Authority = "http://10.19.87.203:6299";
+                   options.Authority = "http://10.0.40.16:8089";
                    options.ApiName = "FreedApi";
                    options.RequireHttpsMetadata = false;
                    options.SupportedTokens = SupportedTokens.Both;

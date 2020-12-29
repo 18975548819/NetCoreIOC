@@ -39,6 +39,7 @@ namespace Freed.IdentityServer4.AuthenticationCenter.Unittiy
                     ClientId = "Freed",//客户端惟一标识
                     ClientSecrets = new [] { new Secret("zeng.tao".ToSha256()) },//客户端密码，进行了加密
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    //AccessTokenLifetime = 60, //有效时间   默认是3600秒
                     //授权方式，客户端认证，只要ClientId+ClientSecrets
                     AllowedScopes = new [] { "FreedApi" },//允许访问的资源
                     Claims=new List<Claim>(){

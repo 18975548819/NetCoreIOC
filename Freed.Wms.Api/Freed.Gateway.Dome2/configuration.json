@@ -307,8 +307,8 @@
       "Type": "Consul" //由Consul提供服务发现
     },
     "RateLimitOptions": {
-      "QuotaExceededMessage": "请求连接数已超", // 当请求过载被截断时返回的消息
-      "HttpStatusCode": 999, // 当请求过载被截断时返回的http status
+      "QuotaExceededMessage": "Number of connections exceeded!", // 当请求过载被截断时返回的消息
+      "HttpStatusCode": 999 // 当请求过载被截断时返回的http status
       //"ClientIdHeader": "client_id" // 用来识别客户端的请求头，默认是 ClientId
     }
   }
