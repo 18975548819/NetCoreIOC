@@ -94,6 +94,7 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Freed.Wms.
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Autofac.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Autofac.Configuration.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Consul.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Dapper.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\log4net.dll
@@ -166,4 +167,3 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.pdb
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.genruntimeconfig.cache
-D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Consul.dll
