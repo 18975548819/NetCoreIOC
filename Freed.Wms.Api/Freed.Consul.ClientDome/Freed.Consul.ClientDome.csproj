@@ -6,7 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
     <PackageReference Include="Consul" Version="1.6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Freed.AOP\Freed.FrameWork.csproj" />
+    <ProjectReference Include="..\Freed.IocFactory\Freed.IocFactory.csproj" />
+    <ProjectReference Include="..\ITestHepler\ITestHepler.csproj" />
+    <ProjectReference Include="..\TestHepler\TestHepler.csproj" />
   </ItemGroup>
 
 </Project>
