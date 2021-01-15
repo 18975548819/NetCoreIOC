@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHepler", "TestHepler\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.IocFactory", "Freed.IocFactory\Freed.IocFactory.csproj", "{957DE3A9-847B-4E01-8295-B192607FF1C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.CacheFactory", "Freed.CacheFactory\Freed.CacheFactory.csproj", "{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{957DE3A9-847B-4E01-8295-B192607FF1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{957DE3A9-847B-4E01-8295-B192607FF1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{957DE3A9-847B-4E01-8295-B192607FF1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -133,6 +139,7 @@ Global
 		{4045EE66-304C-41D7-9509-DE308BD1F1CB} = {F52A698E-06A1-4B4C-BFF3-882549EED240}
 		{D0751726-0F31-4620-8A85-C12E84E6DD19} = {F52A698E-06A1-4B4C-BFF3-882549EED240}
 		{957DE3A9-847B-4E01-8295-B192607FF1C0} = {CAB990EF-4F2F-447B-ADA6-CC91A9213894}
+		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006} = {CAB990EF-4F2F-447B-ADA6-CC91A9213894}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5360EB84-24BE-42B3-8450-1F80FD2E9ED9}

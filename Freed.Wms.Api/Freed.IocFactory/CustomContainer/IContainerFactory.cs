@@ -10,6 +10,6 @@ namespace Freed.IocFactory.CustomContainer
     public interface IContainerFactory
     {
         void Register<TFronm, TTo>() where TTo : TFronm; //泛型：代表TTo是来自TFronm
-        TFronm Resolve<TFronm>();
+        TFronm Resolve<TFronm>();                                                           
     }
 }

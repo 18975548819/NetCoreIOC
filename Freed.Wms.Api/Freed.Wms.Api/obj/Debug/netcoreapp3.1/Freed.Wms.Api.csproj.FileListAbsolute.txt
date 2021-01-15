@@ -167,3 +167,11 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.pdb
 D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.genruntimeconfig.cache
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Freed.CacheFactory.dll
+D:\Git\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Freed.CacheFactory.pdb

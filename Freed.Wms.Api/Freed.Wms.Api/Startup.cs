@@ -8,6 +8,7 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using DataModel.Authorize;
 using DataService.Base;
+using Freed.CacheFactory.Unility;
 using Freed.Wms.Api.Filter;
 using Freed.Wms.Api.Models;
 using Freed.Wms.Api.SwaggerHeple;
@@ -19,6 +20,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -41,6 +43,16 @@ namespace Freed.Wms.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            //启用缓存（MemoryCache 第三方）
+            {
+                services.AddMemoryCache(options =>
+                {
+                    options.Clock = new LocalClock();
+                    //options.SizeLimit = 1000;  //指定缓存大小
+                });
+            }
+
+            services.AddSingleton<ICustomMemoryCache, CustomMemoryCache>();  //注册自定义缓存
             services.AddSingleton(Configuration.GetSection("Consul").Get<ConsulOption>());  //获取consul注册所需参数
             services.AddControllers();
             //全局异常捕获

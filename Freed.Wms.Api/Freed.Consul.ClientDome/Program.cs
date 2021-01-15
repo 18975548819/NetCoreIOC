@@ -6,6 +6,8 @@ using ITestHepler;
 using TestHepler;
 using Freed.IocFactory.CustomIoc;
 using Freed.IocFactory.CustomContainer;
+using Microsoft.Extensions.Caching.Memory;
+using Freed.CacheFactory.Unility;
 
 namespace Freed.Consul.ClientDome
 {
@@ -26,10 +28,10 @@ namespace Freed.Consul.ClientDome
 
             //IOC工厂模式注册
             {
-                IContainerFactory container = new ContainerFactory();  
+                IContainerFactory container = new ContainerFactory();
                 container.Register<ICustomTest, CustomTest>();
                 ICustomTest customTest = container.Resolve<ICustomTest>();
-                string dt =  customTest.GetDateTime();
+                string dt = customTest.GetDateTime();
                 Console.WriteLine(dt);
             }
 
