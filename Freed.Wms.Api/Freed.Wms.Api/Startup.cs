@@ -53,6 +53,7 @@ namespace Freed.Wms.Api
             }
 
             services.AddSingleton<ICustomMemoryCache, CustomMemoryCache>();  //注册自定义缓存
+
             services.AddSingleton(Configuration.GetSection("Consul").Get<ConsulOption>());  //获取consul注册所需参数
             services.AddControllers();
             //全局异常捕获
