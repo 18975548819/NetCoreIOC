@@ -71,6 +71,52 @@
             健康检查
             </summary>
         </member>
+        <member name="T:Freed.Wms.Api.Controllers.BasicInfo.SysModuleController">
+            <summary>
+            功能模块
+            </summary>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.BasicInfo.SysModuleController.GetSysModuleMainList(Freed.Wms.Api.Models.BasicInfoQuery.GetSysModuleViewModel)">
+            <summary>
+            获取功能模块（主功能模块）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.BasicInfo.SysModuleController.GetSysModuleList(Freed.Wms.Api.Models.BasicInfoQuery.GetSysModuleViewModel)">
+            <summary>
+            获取功能模块和子模块
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.BasicInfo.SysModuleController.GetSysModuleChildList(Freed.Wms.Api.Models.BasicInfoQuery.GetSysModuleViewModel)">
+            <summary>
+            获取子功能模块
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.BasicInfo.SysModuleController.InsertSysModule(Freed.Wms.Api.Models.BasicInfoQuery.SysModuleViewModel)">
+            <summary>
+            新增功能模块
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.BasicInfo.SysModuleController.eidtSysModule(Freed.Wms.Api.Models.BasicInfoQuery.SysModuleViewModel)">
+            <summary>
+            修改功能模块
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Freed.Wms.Api.Controllers.BasicInfo.SysModuleController.DeleteSysModule(Freed.Wms.Api.Models.BasicInfoQuery.GetSysModuleViewModel)">
+            <summary>
+            删除功能模块
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
         <member name="T:Freed.Wms.Api.Controllers.InStorageGoodsController">
             <summary>
             入库物料
@@ -216,6 +262,11 @@
         <member name="P:Freed.Wms.Api.Models.BaseInfoViewModel.RepertoryId">
             <summary>
             仓位
+            </summary>
+        </member>
+        <member name="T:Freed.Wms.Api.Models.BasicInfoQuery.SysModuleViewModel">
+            <summary>
+            功能模块信息
             </summary>
         </member>
         <member name="T:Freed.Wms.Api.Models.ConsulOption">

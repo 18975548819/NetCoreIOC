@@ -314,6 +314,26 @@ namespace Freed.Common.Helpers
         }
 
         /// <summary>
+        /// 执行SQL，返回第一行的值
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="conn"></param>
+        /// <param name="sql"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        public static async Task<T> QueryFirstOrDefaultAsync<T>(IDbConnection conn, string sql, object param = null, IDbTransaction transaction = null)
+        {
+            try
+            {
+                return await conn.QueryFirstOrDefaultAsync<T>(sql, param, transaction);
+            }
+            catch (Exception ex)
+            {
+                return default(T);
+            }
+        }
+
+        /// <summary>
         /// 执行SQL，返回数据实体
         /// </summary>
         /// <typeparam name="T"></typeparam>
