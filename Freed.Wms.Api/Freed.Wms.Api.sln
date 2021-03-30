@@ -37,17 +37,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Freed.IdentityServer4.Authe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Freed.Microservice", "Freed.Microservice", "{A7D3271E-370C-49A2-99B1-B1A7F8C3C512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.FrameWork", "Freed.AOP\Freed.FrameWork.csproj", "{6108A462-C490-466B-9A11-D9A658FC2A53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Freed.FrameWork", "Freed.AOP\Freed.FrameWork.csproj", "{6108A462-C490-466B-9A11-D9A658FC2A53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Freed.Test", "Freed.Test", "{F52A698E-06A1-4B4C-BFF3-882549EED240}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITestHepler", "ITestHepler\ITestHepler.csproj", "{4045EE66-304C-41D7-9509-DE308BD1F1CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITestHepler", "ITestHepler\ITestHepler.csproj", "{4045EE66-304C-41D7-9509-DE308BD1F1CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHepler", "TestHepler\TestHepler.csproj", "{D0751726-0F31-4620-8A85-C12E84E6DD19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestHepler", "TestHepler\TestHepler.csproj", "{D0751726-0F31-4620-8A85-C12E84E6DD19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.IocFactory", "Freed.IocFactory\Freed.IocFactory.csproj", "{957DE3A9-847B-4E01-8295-B192607FF1C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Freed.IocFactory", "Freed.IocFactory\Freed.IocFactory.csproj", "{957DE3A9-847B-4E01-8295-B192607FF1C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.CacheFactory", "Freed.CacheFactory\Freed.CacheFactory.csproj", "{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Freed.CacheFactory", "Freed.CacheFactory\Freed.CacheFactory.csproj", "{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.Redis.ClientDome", "Freed.Redis.ClientDome\Freed.Redis.ClientDome.csproj", "{C65B6A93-9FF9-423B-A347-889E0D36C34C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65B6A93-9FF9-423B-A347-889E0D36C34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65B6A93-9FF9-423B-A347-889E0D36C34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65B6A93-9FF9-423B-A347-889E0D36C34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65B6A93-9FF9-423B-A347-889E0D36C34C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +146,7 @@ Global
 		{D0751726-0F31-4620-8A85-C12E84E6DD19} = {F52A698E-06A1-4B4C-BFF3-882549EED240}
 		{957DE3A9-847B-4E01-8295-B192607FF1C0} = {CAB990EF-4F2F-447B-ADA6-CC91A9213894}
 		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006} = {CAB990EF-4F2F-447B-ADA6-CC91A9213894}
+		{C65B6A93-9FF9-423B-A347-889E0D36C34C} = {A7D3271E-370C-49A2-99B1-B1A7F8C3C512}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5360EB84-24BE-42B3-8450-1F80FD2E9ED9}
