@@ -30,3 +30,20 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataServic
 D:\Git\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.csproj.CopyComplete
 D:\Git\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\bin\Debug\netcoreapp3.1\IDataService.deps.json
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\bin\Debug\netcoreapp3.1\IDataService.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\bin\Debug\netcoreapp3.1\IDataService.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\bin\Debug\netcoreapp3.1\DataEntities.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\bin\Debug\netcoreapp3.1\DataModel.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\bin\Debug\netcoreapp3.1\Freed.Common.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\bin\Debug\netcoreapp3.1\DataEntities.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\bin\Debug\netcoreapp3.1\DataModel.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\bin\Debug\netcoreapp3.1\Freed.Common.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.csproj.AssemblyReference.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.GeneratedMSBuildEditorConfig.editorconfig
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.AssemblyInfoInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.AssemblyInfo.cs
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.csproj.CoreCompileInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.csproj.CopyComplete
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IDataService\obj\Debug\netcoreapp3.1\IDataService.pdb

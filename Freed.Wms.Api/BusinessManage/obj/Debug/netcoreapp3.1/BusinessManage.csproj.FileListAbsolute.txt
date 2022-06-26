@@ -38,3 +38,24 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessM
 D:\Git\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.csproj.CopyComplete
 D:\Git\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\BusinessManage.deps.json
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\BusinessManage.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\BusinessManage.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\DataEntities.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\DataModel.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\Freed.Common.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\IBusinessManage.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\IDataService.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\IBusinessManage.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\IDataService.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\DataEntities.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\DataModel.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\bin\Debug\netcoreapp3.1\Freed.Common.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.csproj.AssemblyReference.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.GeneratedMSBuildEditorConfig.editorconfig
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.AssemblyInfoInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.AssemblyInfo.cs
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.csproj.CoreCompileInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.csproj.CopyComplete
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\BusinessManage\obj\Debug\netcoreapp3.1\BusinessManage.pdb

@@ -16,3 +16,13 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntitie
 D:\Git\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.csproj.CoreCompileInputs.cache
 D:\Git\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\bin\Debug\netcoreapp3.1\DataEntities.deps.json
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\bin\Debug\netcoreapp3.1\DataEntities.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\bin\Debug\netcoreapp3.1\DataEntities.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.csproj.AssemblyReference.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.GeneratedMSBuildEditorConfig.editorconfig
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.AssemblyInfoInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.AssemblyInfo.cs
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.csproj.CoreCompileInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.pdb

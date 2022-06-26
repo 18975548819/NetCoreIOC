@@ -30,3 +30,20 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusines
 D:\Git\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.csproj.CopyComplete
 D:\Git\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\bin\Debug\netcoreapp3.1\IBusinessManage.deps.json
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\bin\Debug\netcoreapp3.1\IBusinessManage.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\bin\Debug\netcoreapp3.1\IBusinessManage.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\bin\Debug\netcoreapp3.1\DataEntities.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\bin\Debug\netcoreapp3.1\DataModel.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\bin\Debug\netcoreapp3.1\Freed.Common.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\bin\Debug\netcoreapp3.1\DataEntities.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\bin\Debug\netcoreapp3.1\DataModel.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\bin\Debug\netcoreapp3.1\Freed.Common.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.csproj.AssemblyReference.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.GeneratedMSBuildEditorConfig.editorconfig
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.AssemblyInfoInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.AssemblyInfo.cs
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.csproj.CoreCompileInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.csproj.CopyComplete
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\IBusinessManage\obj\Debug\netcoreapp3.1\IBusinessManage.pdb

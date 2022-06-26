@@ -34,3 +34,22 @@ D:\Git\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.
 D:\Git\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.CopyComplete
 D:\Git\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.dll
 D:\Git\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataService.deps.json
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataService.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataService.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataEntities.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataModel.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\Freed.Common.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\IDataService.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\IDataService.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataEntities.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataModel.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\Freed.Common.pdb
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.AssemblyReference.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.GeneratedMSBuildEditorConfig.editorconfig
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.AssemblyInfoInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.AssemblyInfo.cs
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.CoreCompileInputs.cache
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.CopyComplete
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.dll
+D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.pdb
