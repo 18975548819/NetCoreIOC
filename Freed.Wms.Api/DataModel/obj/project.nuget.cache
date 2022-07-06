@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "dpSDwpQOrDhU1FOoa48xwcglbyybnhfD+PnsgdsZFEPS1xBWpPhN8ubESfK2rdZQMQaDP+bhsW/A7h36pALhjA==",
+  "dgSpecHash": "vpzFN+TB5LVjY0zGj9CikSCSH03ebaj2UJfyau3/kmk2opCtajcO3NPBNSZ6RbvaU+21oFf3HGg+Tt36lnGQSQ==",
   "success": true,
-  "projectFilePath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj",
+  "projectFilePath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.20.0\\microsoft.identitymodel.abstractions.6.20.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.logging\\6.20.0\\microsoft.identitymodel.logging.6.20.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.20.0\\microsoft.identitymodel.tokens.6.20.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Users\\TR\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\TR\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.20.0\\microsoft.identitymodel.abstractions.6.20.0.nupkg.sha512",
+    "C:\\Users\\TR\\.nuget\\packages\\microsoft.identitymodel.logging\\6.20.0\\microsoft.identitymodel.logging.6.20.0.nupkg.sha512",
+    "C:\\Users\\TR\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.20.0\\microsoft.identitymodel.tokens.6.20.0.nupkg.sha512",
+    "C:\\Users\\TR\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

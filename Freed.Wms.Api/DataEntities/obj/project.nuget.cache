@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DKrxybNzpyz1Y2NXEFrBVJj8F05Gq5nMBXINpnKWIDUr4HB4mEYR1l3qj+E0GRU+qdpDbOF7VWcG+fGlywNceA==",
+  "dgSpecHash": "bk3GRnK+aPVfOSjUECBKTsUmGlAjUOSrfcf8hEK0jYitegDCHrLJIe/wqidqp+lGEYI/LWHLWheNTyIQNYOM3Q==",
   "success": true,
-  "projectFilePath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
-  ],
+  "projectFilePath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

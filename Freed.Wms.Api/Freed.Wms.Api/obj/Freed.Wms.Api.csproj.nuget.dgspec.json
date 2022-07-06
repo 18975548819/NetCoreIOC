@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj": {}
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj": {}
   },
   "projects": {
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj": {
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj",
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj",
         "projectName": "BusinessManage",
-        "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\obj\\",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj"
               },
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
               }
             }
           }
@@ -67,7 +67,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,25 +77,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj": {
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
         "projectName": "DataEntities",
-        "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\obj\\",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -103,6 +103,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -126,40 +127,34 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj": {
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj",
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj",
         "projectName": "DataModel",
-        "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\obj\\",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -168,6 +163,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -197,7 +193,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -206,25 +203,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj": {
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj",
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj",
         "projectName": "DataService",
-        "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataService\\obj\\",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -233,14 +229,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
               }
             }
           }
@@ -270,7 +267,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -279,25 +277,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj": {
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj",
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj",
         "projectName": "Freed.CacheFactory",
-        "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\obj\\",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -306,6 +303,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -335,7 +333,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -344,25 +343,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
         "projectName": "Freed.Common",
-        "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\obj\\",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -371,6 +369,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -428,7 +427,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -437,25 +437,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj": {
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj",
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj",
         "projectName": "Freed.Wms.Api",
-        "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\obj\\",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -464,26 +463,27 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\BusinessManage\\BusinessManage.csproj"
               },
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataService\\DataService.csproj"
               },
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj"
               },
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj"
               },
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj"
               }
             }
           }
@@ -541,7 +541,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -553,25 +554,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj",
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj",
         "projectName": "IBusinessManage",
-        "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\obj\\",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -580,20 +580,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj"
               },
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj"
               },
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj"
               }
             }
           }
@@ -613,7 +614,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -622,25 +624,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj",
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj",
         "projectName": "IDataService",
-        "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\obj\\",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\IDataService.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IDataService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -649,20 +650,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataEntities\\DataEntities.csproj"
               },
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\DataModel\\DataModel.csproj"
               },
-              "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
-                "projectPath": "D:\\源码\\Git\\net Core3.1\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj"
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Comon\\Freed.Common.csproj"
               }
             }
           }
@@ -682,7 +684,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -691,7 +694,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
         }
       }
     }
