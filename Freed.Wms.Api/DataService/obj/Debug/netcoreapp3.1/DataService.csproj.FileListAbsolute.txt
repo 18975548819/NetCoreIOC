@@ -53,3 +53,22 @@ D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcore
 D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.CopyComplete
 D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.dll
 D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.pdb
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataService.deps.json
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataService.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataService.pdb
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataEntities.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataModel.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\Freed.Common.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\IDataService.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\IDataService.pdb
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataEntities.pdb
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\DataModel.pdb
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\bin\Debug\netcoreapp3.1\Freed.Common.pdb
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.AssemblyReference.cache
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.GeneratedMSBuildEditorConfig.editorconfig
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.AssemblyInfoInputs.cache
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.AssemblyInfo.cs
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.CoreCompileInputs.cache
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.csproj.CopyComplete
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataService\obj\Debug\netcoreapp3.1\DataService.pdb

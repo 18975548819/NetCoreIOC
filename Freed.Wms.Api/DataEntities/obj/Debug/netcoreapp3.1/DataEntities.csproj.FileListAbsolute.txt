@@ -26,3 +26,13 @@ D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcor
 D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.csproj.CoreCompileInputs.cache
 D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.dll
 D:\源码\Git\net Core3.1\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.pdb
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\bin\Debug\netcoreapp3.1\DataEntities.deps.json
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\bin\Debug\netcoreapp3.1\DataEntities.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\bin\Debug\netcoreapp3.1\DataEntities.pdb
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.csproj.AssemblyReference.cache
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.GeneratedMSBuildEditorConfig.editorconfig
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.AssemblyInfoInputs.cache
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.AssemblyInfo.cs
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.csproj.CoreCompileInputs.cache
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\DataEntities\obj\Debug\netcoreapp3.1\DataEntities.pdb
