@@ -6,14 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Castle.Core" Version="4.4.1" />
     <PackageReference Include="Consul" Version="1.6.1.1" />
-    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Freed.AOP\Freed.FrameWork.csproj" />
     <ProjectReference Include="..\Freed.CacheFactory\Freed.CacheFactory.csproj" />
+    <ProjectReference Include="..\Freed.EntityFramework\Freed.EntityFramework.csproj" />
     <ProjectReference Include="..\Freed.IocFactory\Freed.IocFactory.csproj" />
     <ProjectReference Include="..\ITestHepler\ITestHepler.csproj" />
     <ProjectReference Include="..\TestHepler\TestHepler.csproj" />

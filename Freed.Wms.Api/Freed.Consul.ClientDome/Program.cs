@@ -8,6 +8,9 @@ using Freed.IocFactory.CustomIoc;
 using Freed.IocFactory.CustomContainer;
 using Microsoft.Extensions.Caching.Memory;
 using Freed.CacheFactory.Unility;
+using Freed.EntityFramework;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Freed.Consul.ClientDome
 {
@@ -18,6 +21,34 @@ namespace Freed.Consul.ClientDome
     {
         static void Main(string[] args)
         {
+            using (UserEFCoreContext context = new UserEFCoreContext())
+            {
+                var userObj = context.usersInfo.First();
+
+                var ss = context.usersInfo.Add(new DataEntities.InterfaceModel.Users
+                {
+                    Id = 3,
+                    UserName = "111",
+                    Age = 20,
+                    Sex = "男"
+
+                });
+
+                //context.usersInfo.Add(new DataEntities.InterfaceModel.Users
+                //{
+                //    Id = 4,
+                //    UserName = "222",
+                //    Age = 22,
+                //    Sex = "男"
+
+                //});
+
+                int result = context.SaveChanges();
+
+                Console.WriteLine(result);
+            }
+
+
             //自定义IOC
             {
                 //ICustomTest customTest = ObjectFactory.CreaterTest();
@@ -28,11 +59,11 @@ namespace Freed.Consul.ClientDome
 
             //IOC工厂模式注册
             {
-                IContainerFactory container = new ContainerFactory();
-                container.Register<ICustomTest, CustomTest>();
-                ICustomTest customTest = container.Resolve<ICustomTest>();
-                string dt = customTest.GetDateTime();
-                Console.WriteLine(dt);
+                //IContainerFactory container = new ContainerFactory();
+                //container.Register<ICustomTest, CustomTest>();
+                //ICustomTest customTest = container.Resolve<ICustomTest>();
+                //string dt = customTest.GetDateTime();
+                //Console.WriteLine(dt);
             }
 
 
