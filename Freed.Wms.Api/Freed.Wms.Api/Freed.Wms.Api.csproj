@@ -15,6 +15,7 @@
     <PackageReference Include="Autofac.Configuration" Version="5.1.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Consul" Version="1.6.1.1" />
+    <PackageReference Include="Coravel" Version="4.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
     <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="5.1.2" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
@@ -26,6 +27,7 @@
     <ProjectReference Include="..\BusinessManage\BusinessManage.csproj" />
     <ProjectReference Include="..\DataService\DataService.csproj" />
     <ProjectReference Include="..\Freed.CacheFactory\Freed.CacheFactory.csproj" />
+    <ProjectReference Include="..\Freed.Schedule\Freed.Schedule.csproj" />
     <ProjectReference Include="..\IBusinessManage\IBusinessManage.csproj" />
     <ProjectReference Include="..\IDataService\IDataService.csproj" />
   </ItemGroup>

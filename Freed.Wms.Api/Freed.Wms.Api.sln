@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Freed.CacheFactory", "Freed
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.Redis.ClientDome", "Freed.Redis.ClientDome\Freed.Redis.ClientDome.csproj", "{C65B6A93-9FF9-423B-A347-889E0D36C34C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.EntityFramework", "Freed.EntityFramework\Freed.EntityFramework.csproj", "{91A45BE5-841F-4233-8700-6992EFD61BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Freed.EntityFramework", "Freed.EntityFramework\Freed.EntityFramework.csproj", "{91A45BE5-841F-4233-8700-6992EFD61BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Freed.Schedule", "Freed.Schedule\Freed.Schedule.csproj", "{826130B2-C465-4120-A8B8-4EB01B9A8503}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,10 @@ Global
 		{91A45BE5-841F-4233-8700-6992EFD61BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91A45BE5-841F-4233-8700-6992EFD61BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91A45BE5-841F-4233-8700-6992EFD61BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826130B2-C465-4120-A8B8-4EB01B9A8503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826130B2-C465-4120-A8B8-4EB01B9A8503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826130B2-C465-4120-A8B8-4EB01B9A8503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826130B2-C465-4120-A8B8-4EB01B9A8503}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +160,7 @@ Global
 		{CAECDDCB-00C2-4B55-BF7F-E320E6A74006} = {CAB990EF-4F2F-447B-ADA6-CC91A9213894}
 		{C65B6A93-9FF9-423B-A347-889E0D36C34C} = {A7D3271E-370C-49A2-99B1-B1A7F8C3C512}
 		{91A45BE5-841F-4233-8700-6992EFD61BFD} = {CAB990EF-4F2F-447B-ADA6-CC91A9213894}
+		{826130B2-C465-4120-A8B8-4EB01B9A8503} = {CAB990EF-4F2F-447B-ADA6-CC91A9213894}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5360EB84-24BE-42B3-8450-1F80FD2E9ED9}

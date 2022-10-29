@@ -59,6 +59,20 @@
           "lib/netstandard2.0/Consul.dll": {}
         }
       },
+      "Coravel/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "3.1.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Coravel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Coravel.dll": {}
+        }
+      },
       "Dapper/2.0.123": {
         "type": "package",
         "dependencies": {
@@ -448,31 +462,31 @@
           "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
+          "Microsoft.Extensions.Primitives": "3.1.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
+      "Microsoft.Extensions.Hosting.Abstractions/3.1.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "2.2.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "2.2.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+          "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Logging/3.1.18": {
@@ -2414,6 +2428,19 @@
           "bin/placeholder/Freed.Common.dll": {}
         }
       },
+      "Freed.Schedule/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Coravel": "4.2.0"
+        },
+        "compile": {
+          "bin/placeholder/Freed.Schedule.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Freed.Schedule.dll": {}
+        }
+      },
       "IBusinessManage/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2539,6 +2566,21 @@
         "consul.nuspec",
         "lib/net461/Consul.dll",
         "lib/netstandard2.0/Consul.dll"
+      ]
+    },
+    "Coravel/4.2.0": {
+      "sha512": "S/B3nYC9AARanCTysuaGynNEEfwnMTGENscLEeLxGD/6bOmjWklkhp3SoV/xlfhL3VYu6R4x9D1VQZJx9Fjmbw==",
+      "type": "package",
+      "path": "coravel/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "coravel.4.2.0.nupkg.sha512",
+        "coravel.nuspec",
+        "lib/netstandard2.0/Coravel.dll",
+        "lib/netstandard2.0/Coravel.xml",
+        "logo.png",
+        "readme.md"
       ]
     },
     "Dapper/2.0.123": {
@@ -3134,30 +3176,36 @@
         "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/2.2.0": {
-      "sha512": "EcnaSsPTqx2MGnHrmWOD0ugbuuqVT8iICqSqPzi45V5/MA1LjUNb0kwgcxBGqizV1R+WeBK7/Gw25Jzkyk9bIw==",
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.0": {
+      "sha512": "G3iBMOnn3tETEUvkE9J3a23wQpRkiXZp73zR0XNlicjLFhkeWW1FCaC2bTjrgHhPi2KO6x0BXnHvVuJPIlygBQ==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/2.2.0",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
-        "microsoft.extensions.fileproviders.abstractions.nuspec"
+        "microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "packageIcon.png"
       ]
     },
-    "Microsoft.Extensions.Hosting.Abstractions/2.2.0": {
-      "sha512": "+k4AEn68HOJat5gj1TWa6X28WlirNQO9sPIIeQbia+91n03esEtMSSoekSTpMjUzjqtJWQN3McVx0GvSPFHF/Q==",
+    "Microsoft.Extensions.Hosting.Abstractions/3.1.0": {
+      "sha512": "LiOP1ceFaPBxaE28SOjtORzOVCJk33TT5VQ/Cg5EoatZh1dxpPAgAV/0ruzWKQE7WAHU3F1H9Z6rFgsQwIb9uQ==",
       "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/2.2.0",
+      "path": "microsoft.extensions.hosting.abstractions/3.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
-        "microsoft.extensions.hosting.abstractions.nuspec"
+        "microsoft.extensions.hosting.abstractions.3.1.0.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec",
+        "packageIcon.png"
       ]
     },
     "Microsoft.Extensions.Logging/3.1.18": {
@@ -7487,6 +7535,11 @@
       "path": "../Freed.Comon/Freed.Common.csproj",
       "msbuildProject": "../Freed.Comon/Freed.Common.csproj"
     },
+    "Freed.Schedule/1.0.0": {
+      "type": "project",
+      "path": "../Freed.Schedule/Freed.Schedule.csproj",
+      "msbuildProject": "../Freed.Schedule/Freed.Schedule.csproj"
+    },
     "IBusinessManage/1.0.0": {
       "type": "project",
       "path": "../IBusinessManage/IBusinessManage.csproj",
@@ -7505,8 +7558,10 @@
       "Autofac.Extensions.DependencyInjection >= 6.0.0",
       "BusinessManage >= 1.0.0",
       "Consul >= 1.6.1.1",
+      "Coravel >= 4.2.0",
       "DataService >= 1.0.0",
       "Freed.CacheFactory >= 1.0.0",
+      "Freed.Schedule >= 1.0.0",
       "IBusinessManage >= 1.0.0",
       "IDataService >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.8",
@@ -7558,6 +7613,9 @@
             "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj": {
               "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj"
             },
+            "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Schedule\\Freed.Schedule.csproj": {
+              "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Schedule\\Freed.Schedule.csproj"
+            },
             "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
               "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj"
             },
@@ -7592,6 +7650,10 @@
           "Consul": {
             "target": "Package",
             "version": "[1.6.1.1, )"
+          },
+          "Coravel": {
+            "target": "Package",
+            "version": "[4.2.0, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",

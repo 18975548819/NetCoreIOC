@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9p0oOco1VfCZ6+OBIONvjRGmCpXXuKTOsdAKMEWHPPygP2QnJOdHEp8FfjoVBayg+E+FxmESDHpnCcPByVKRHw==",
+  "dgSpecHash": "1GE3erBelmWkADFTNggncOyncYkojBXBuPAzCKRP/wapwseNoPEaLcAxIFkAOVfjDkzVeLiXll/idel0vK9z6A==",
   "success": true,
   "projectFilePath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\TR\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
+    "C:\\Users\\TR\\.nuget\\packages\\coravel\\4.2.0\\coravel.4.2.0.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
@@ -37,8 +38,8 @@
     "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.18\\microsoft.extensions.dependencyinjection.3.1.18.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
-    "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.0\\microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.0\\microsoft.extensions.hosting.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.logging\\3.1.18\\microsoft.extensions.logging.3.1.18.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\TR\\.nuget\\packages\\microsoft.extensions.logging.log4net.aspnetcore\\6.1.0\\microsoft.extensions.logging.log4net.aspnetcore.6.1.0.nupkg.sha512",

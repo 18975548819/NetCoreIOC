@@ -6,9 +6,11 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Coravel;
 using DataModel.Authorize;
 using DataService.Base;
 using Freed.CacheFactory.Unility;
+using Freed.Schedule;
 using Freed.Wms.Api.Filter;
 using Freed.Wms.Api.Models;
 using Freed.Wms.Api.SwaggerHeple;
@@ -53,6 +55,10 @@ namespace Freed.Wms.Api
             }
 
             services.AddSingleton<ICustomMemoryCache, CustomMemoryCache>();  //注册自定义缓存
+            services.AddSingleton<FristSchedule>();
+
+            // Coravel任务调度
+            services.AddScheduler();
 
             services.AddSingleton(Configuration.GetSection("Consul").Get<ConsulOption>());  //获取consul注册所需参数
             services.AddControllers();
@@ -174,6 +180,11 @@ namespace Freed.Wms.Api
             });
 
             //app.UseHttpsRedirection();
+
+            // 执行定时任务调度
+            //app.ApplicationServices.UseScheduler(scheduler => {
+            //    scheduler.Schedule<FristSchedule>().EverySecond();//每秒执行一次
+            //});
 
             app.UseSwagger();
 

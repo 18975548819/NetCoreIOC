@@ -441,6 +441,72 @@
         }
       }
     },
+    "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Schedule\\Freed.Schedule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Schedule\\Freed.Schedule.csproj",
+        "projectName": "Freed.Schedule",
+        "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Schedule\\Freed.Schedule.csproj",
+        "packagesPath": "C:\\Users\\TR\\.nuget\\packages\\",
+        "outputPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Schedule\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\软件安装\\VS2022\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Coravel": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Wms.Api\\Freed.Wms.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -479,6 +545,9 @@
               "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj": {
                 "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.CacheFactory\\Freed.CacheFactory.csproj"
               },
+              "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Schedule\\Freed.Schedule.csproj": {
+                "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\Freed.Schedule\\Freed.Schedule.csproj"
+              },
               "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj": {
                 "projectPath": "E:\\文档资料\\代码\\github\\NetCoreIOC\\Freed.Wms.Api\\IBusinessManage\\IBusinessManage.csproj"
               },
@@ -513,6 +582,10 @@
             "Consul": {
               "target": "Package",
               "version": "[1.6.1.1, )"
+            },
+            "Coravel": {
+              "target": "Package",
+              "version": "[4.2.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

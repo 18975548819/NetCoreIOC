@@ -457,3 +457,6 @@ E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\n
 E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.dll
 E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.pdb
 E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\netcoreapp3.1\Freed.Wms.Api.genruntimeconfig.cache
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Coravel.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Freed.Schedule.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Freed.Schedule.pdb
