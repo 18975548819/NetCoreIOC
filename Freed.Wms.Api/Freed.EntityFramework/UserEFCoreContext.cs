@@ -27,7 +27,7 @@ namespace Freed.EntityFramework
         {
             // 映射
             modelBuilder.Entity<Users>().ToTable("Users");
-
+            modelBuilder.Entity<Users>().HasKey(u => u.Id);
 
             //注入ModelBuilder
             base.OnModelCreating(modelBuilder);
