@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NLog.Web;
 
 namespace Freed.Wms.Api
 {
@@ -29,7 +30,7 @@ namespace Freed.Wms.Api
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>().UseNLog();
                 });
 
 
@@ -37,6 +38,6 @@ namespace Freed.Wms.Api
                 WebHost.CreateDefaultBuilder(args)
             //.UseStartup<Startup>();
             //.UseStartup<Startup>().UseUrls("http://*:5088;https://*:5081");  //代码调试环境使用，项目属性=》调试=》项目浏览器地址、应用URL地址需要改为一致
-        .UseStartup<Startup>().UseUrls("http://127.0.0.1:5088");  //注册consul时使用  健康检查
+        .UseStartup<Startup>().UseUrls("http://127.0.0.1:5088").UseNLog();  //注册consul时使用  健康检查
     }
 }

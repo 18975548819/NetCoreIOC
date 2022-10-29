@@ -11,6 +11,7 @@ using IDataService.Base;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
 namespace Freed.Wms.Api.Controllers.Base
@@ -21,11 +22,13 @@ namespace Freed.Wms.Api.Controllers.Base
     {
         private IWmsPdaConfigManager _manager;
         private IJwtFactory _jwtFactory;
+        private ILogger<AccountController> _logger;
 
-        public AccountController(IWmsPdaConfigManager manager, IJwtFactory jwtFactory) :base(manager)
+        public AccountController(IWmsPdaConfigManager manager, IJwtFactory jwtFactory, ILogger<AccountController> logger) :base(manager)
         {
             _manager = manager;
             _jwtFactory = jwtFactory;
+            _logger = logger;
         }
 
         /// <summary>
@@ -35,7 +38,8 @@ namespace Freed.Wms.Api.Controllers.Base
         [HttpGet, Route("get_wms_pda_config")]
         public async Task<IActionResult> GetWmsPdaConfig()
         {
-           var condition = new WmsPdaConfigQuery();
+            _logger.LogInformation("获取配置信息集合");
+            var condition = new WmsPdaConfigQuery();
             var query = new QueryData<WmsPdaConfigQuery>();
             query.Criteria = condition;
 

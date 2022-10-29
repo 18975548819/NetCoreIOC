@@ -460,3 +460,11 @@ E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\obj\Debug\n
 E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Coravel.dll
 E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Freed.Schedule.dll
 E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Freed.Schedule.pdb
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\DapperExtensionsDNXCore.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\LogDashboard.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\NLog.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\log4net.config
+E:\文档资料\代码\github\NetCoreIOC\Freed.Wms.Api\Freed.Wms.Api\bin\Debug\netcoreapp3.1\Nlog.config

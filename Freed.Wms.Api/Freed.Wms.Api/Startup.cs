@@ -17,6 +17,7 @@ using Freed.Wms.Api.SwaggerHeple;
 using Freed.Wms.Api.Utility;
 using IBusinessManage.Base;
 using IDataService.Base;
+using LogDashboard;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,6 +28,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Log4Net.AspNetCore.Entities;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
@@ -59,6 +61,9 @@ namespace Freed.Wms.Api
 
             // Coravel任务调度
             services.AddScheduler();
+
+            // LogDashboard日志看板
+            services.AddLogDashboard();
 
             services.AddSingleton(Configuration.GetSection("Consul").Get<ConsulOption>());  //获取consul注册所需参数
             services.AddControllers();
@@ -160,7 +165,7 @@ namespace Freed.Wms.Api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ISqlConnection connection)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ISqlConnection connection,ILoggerFactory loggerFactory)
         {
             ISqlConnection connModel = new SqlConnectionModel();
             connModel.CommonConnStr = Configuration["ConnectionStrings:MsSqlPdaConn"];
@@ -182,9 +187,20 @@ namespace Freed.Wms.Api
             //app.UseHttpsRedirection();
 
             // 执行定时任务调度
-            //app.ApplicationServices.UseScheduler(scheduler => {
+            //app.ApplicationServices.UseScheduler(scheduler =>
+            //{
             //    scheduler.Schedule<FristSchedule>().EverySecond();//每秒执行一次
             //});
+
+            // 日志
+            loggerFactory.AddLog4Net(new Log4NetProviderOptions
+            {
+                PropertyOverrides = new List<NodeInfo> { new NodeInfo { XPath = "/log4net/appender/file[last()]", Attributes = new Dictionary<string, string> { { "value", $"{AppContext.BaseDirectory}LogFiles/" } } } }
+            });
+
+            // 启动LogDashboard日志看板
+            app.UseLogDashboard();
+
 
             app.UseSwagger();
 
