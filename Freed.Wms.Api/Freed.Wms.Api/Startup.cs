@@ -32,6 +32,7 @@ using Microsoft.Extensions.Logging.Log4Net.AspNetCore.Entities;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using WatchDog;
 
 namespace Freed.Wms.Api
 {
@@ -64,6 +65,9 @@ namespace Freed.Wms.Api
 
             // LogDashboard日志看板
             services.AddLogDashboard();
+
+            //watchDog中间件
+            services.AddWatchDogServices();
 
             services.AddSingleton(Configuration.GetSection("Consul").Get<ConsulOption>());  //获取consul注册所需参数
             services.AddControllers();
@@ -201,6 +205,13 @@ namespace Freed.Wms.Api
             // 启动LogDashboard日志看板
             app.UseLogDashboard();
 
+            //配置watchDog中间件
+            //配置中间件
+            app.UseWatchDog(opt =>
+            {
+                opt.WatchPageUsername = "admin";
+                opt.WatchPagePassword = "123456";
+            });
 
             app.UseSwagger();
 
